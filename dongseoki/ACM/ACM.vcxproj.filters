@@ -21,10 +21,10 @@
     <ClCompile Include="crazy_number_2193.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2ntiling.cpp">
+    <ClCompile Include="ACM_craft_1005.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ACM_craft.cpp">
+    <ClCompile Include="2ntiling_11726.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

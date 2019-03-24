@@ -38,7 +38,7 @@ int main(void) {
 
 		
 
-		cout << min_time_building(want);
+		cout << min_time_building(want)<<"\n";
 	}
 	
 	//cout << "hi"<<"\n";
