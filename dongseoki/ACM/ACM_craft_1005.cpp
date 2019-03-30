@@ -9,6 +9,8 @@ int timeOfBuildingOne[1001];
 vector<int> ve[1001];
 // 2차원 배열 초기화 어떻게 하지?
 
+//arr[w].empty 는 empty면 true를 반환한다.
+
 int min_time_building(int want);
 
 int main(void) {
