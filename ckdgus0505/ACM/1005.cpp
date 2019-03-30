@@ -54,7 +54,7 @@ int main()
 		cin >> toWin;
 
 
-		//cout << minTime(toWin) << "\n";
+		cout << minTime(toWin) << "\n";
 	}
 
 
