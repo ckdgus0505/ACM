@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\2주차">
+      <UniqueIdentifier>{a7f97ed0-47db-4362-9b24-2beafb96c17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주차">
+      <UniqueIdentifier>{af9e49ec-f27f-4726-a14b-98fab899130e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="githubtest.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1005_ACMCraft.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_1로만들기.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2193_이친수.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="11726_2xn타일링.cpp">
+      <Filter>소스 파일\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="1992_쿼드트리.cpp">
+      <Filter>소스 파일\3주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
