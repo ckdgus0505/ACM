@@ -36,5 +36,14 @@
     <ClCompile Include="1992_쿼드트리.cpp">
       <Filter>소스 파일\3주차</Filter>
     </ClCompile>
+    <ClCompile Include="5620_가장가까운두점의거리.cpp">
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2261_가장 가까운 두점.cpp">
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2133_타일채우기.cpp">
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
