@@ -12,13 +12,14 @@ int quadTree(int x, int y, int size) // x,y 는 시작 위치
 	vector<vector<int>> arr0(size, vector<int>(size, 0));
 	vector<vector<int>> arr1(size, vector<int>(size, 1));
 	vector<vector<int>> subarr(size, vector<int>(size, 0));
-	for (int i = x; i < x + size; i++)
+	/*for (int i = x; i < x + size; i++)
 	{
 		for (int j = y; j < y + size; j++)
 		{
 			subarr[i - x][j - y] = arr[i][j];
 		}
-	}
+	}*/
+	subarr = arr;
 	if (subarr == arr0)
 	{
 		cout << '0';
@@ -43,9 +44,6 @@ int quadTree(int x, int y, int size) // x,y 는 시작 위치
 
 int main(void)
 {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-
 	cin >> N;
 
 	arr.assign(N, vector<int>(N, 0));

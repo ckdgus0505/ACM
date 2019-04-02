@@ -13,31 +13,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1주차">
+      <UniqueIdentifier>{272c8c8a-e001-4e41-8a37-9fc7d547bb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주차">
+      <UniqueIdentifier>{9b80f807-057e-4a45-a890-292fdfd89cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주차">
+      <UniqueIdentifier>{a8dae9f7-7ee8-436d-9bab-176ec6c48096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4주차">
+      <UniqueIdentifier>{053082b3-66d2-4813-80d9-ecbf32c2272b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1463.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2주차</Filter>
     </ClCompile>
     <ClCompile Include="2193.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2주차</Filter>
     </ClCompile>
     <ClCompile Include="1005.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2주차</Filter>
     </ClCompile>
     <ClCompile Include="11726.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2주차</Filter>
     </ClCompile>
-    <ClCompile Include="2098.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2579.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2838.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="2261.cpp">
+      <Filter>소스 파일\3주차</Filter>
     </ClCompile>
     <ClCompile Include="1992.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2133.cpp">
+      <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2098.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2838.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2740.cpp">
+      <Filter>소스 파일\4주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
