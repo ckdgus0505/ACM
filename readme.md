@@ -29,3 +29,14 @@
 > 2261 : [가장 가까운 두 점](https://www.acmicpc.net/problem/2261)
 > 5620 : [가장 가까운 두 점의 거리](https://www.acmicpc.net/problem/5620)
 > 2133 : [타일 채우기](https://www.acmicpc.net/problem/2133)
+
+* 4주차 문제 (19.04.02.~19.04.09)
+
+> 2740 : [행렬 곱셈](https://www.acmicpc.net/problem/2740)
+> 2957 : [이진 탐색 트리](https://www.acmicpc.net/problem/2957)
+> 5639 : [이진 검색 트리](https://www.acmicpc.net/problem/5639)
+> 1991 : [트리 순회](https://www.acmicpc.net/problem/1991)
+> 2250 : [트리의 높이와 너비](https://www.acmicpc.net/problem/2250)
+> 3038 : [완전 이진 트리](https://www.acmicpc.net/problem/3038)
+> 13325 : [이진 트리](https://www.acmicpc.net/problem/13325)
+> - ( 3038, 13325는 시간 남으면 풀기 )
