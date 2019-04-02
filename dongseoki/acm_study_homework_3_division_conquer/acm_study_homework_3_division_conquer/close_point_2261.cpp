@@ -33,10 +33,14 @@ int main() {
 	scanf("%d", &n);
 	vector<Point> a(n);
 	for (int i = 0; i < n; i++) {
-		scanf("%d %d", &a[i].x, &a[i].y);
+		scanf("%d %d", &a[i].x, &a[i].y); // 모든 점을 저장.
 	}
-	sort(a.begin(), a.end(), cmp);
-	set<Point> candidate = { a[0], a[1] };
+	//http://www.cplusplus.com/reference/vector/vector/begin/
+	// http://www.cplusplus.com/reference/algorithm/sort/?kw=sort
+
+	sort(a.begin(), a.end(), cmp); // begin에서 end 까지
+	// x가 작은 것부터 오름차순으로 정렬을 했다.
+	set<Point> candidate = { a[0], a[1] }; // 삽입 삭제 탐색이 O(logN)
 	int ans = dist(a[0], a[1]);
 	int start = 0;
 	for (int i = 2; i < n; i++) {
