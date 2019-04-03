@@ -60,5 +60,17 @@
     <ClCompile Include="2740.cpp">
       <Filter>소스 파일\4주차</Filter>
     </ClCompile>
+    <ClCompile Include="1991.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2957.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2957_2.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="5639.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
