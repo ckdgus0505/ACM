@@ -44,7 +44,7 @@ class BinaryTree
 {
 public:
 	BinaryNode* root;
-	BinaryTree(BinaryNode * root):root(root)
+	BinaryTree(BinaryNode* root) :root(root)
 	{ }
 	void inorder(BinaryNode* n) {
 		if (n != NULL)
@@ -74,11 +74,11 @@ public:
 				postorder(n->getLeft());
 			if (n->getRight() != NULL)
 				postorder(n->getRight());
-			cout << n->getData();
+			cout << n->getData()<<"\n";
 
 		}
 	}
-	void insert(int num, BinaryNode* root) {
+	void insert(int num, BinaryNode * root) {
 		count2++;
 		if (num < root->data)
 			if (root->getLeft() == NULL) {
@@ -103,29 +103,26 @@ public:
 
 
 int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL); // cout �� cin ���̿� ���� ���� ���� ������ ���´�. ����ȭ�� �����Ѵ�.?
+	//ios::sync_with_stdio(false);
+	//cin.tie(NULL); // cout �� cin ���̿� ���� ���� ���� ������ ���´�. ����ȭ�� �����Ѵ�.?
 
+	
+	
+	
 	int N;
-	cin >> N;
-	/*vector<BinaryNode*> vec;
-
-	for (int i = 0; i < N; i++)
-		vec.push_back(new BinaryNode());
-*/
-
-	int first;
-	cin >> first;
-	BinaryNode* node = new BinaryNode(first);
+	if (scanf_s("%d", &N) == -1)
+		return 0;
+	BinaryNode * node = new BinaryNode(N);
 	BinaryTree* bt = new BinaryTree(node);
-	cout << count2<<"\n";
-	int num;
-	for (int i = 1; i < N; i++) {
-		cin >> num;
-		bt->insert(num, node);
-		cout << count2 << "\n";
+	while (true) {
+		int N;
+		cin >> N;
+		if (scanf_s("%d", &N) == -1)
+			break;
+		bt->insert(N, node);
 	}
-
+	bt->postorder(node);
+	
 
 
 
