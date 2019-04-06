@@ -21,18 +21,20 @@ using namespace std;
 //DBAECFG
 //DBEGFCA
 
+int count2 = 0;
+
 
 class BinaryNode
 {
 public:
-	char data;
+	int data;
 	BinaryNode* left;
 	BinaryNode* right;
-	BinaryNode(char val = 0, BinaryNode * l = NULL, BinaryNode* r =NULL)
+	BinaryNode(int val = 0, BinaryNode* l = NULL, BinaryNode* r = NULL)
 		:data(val), left(l), right(r)
 	{ }
 
-	char getData() { return data;}
+	int getData() { return data; }
 	void setData(int val) { data = val; }
 	BinaryNode* getLeft() { return left; }
 	BinaryNode* getRight() { return right; }
@@ -41,10 +43,10 @@ public:
 class BinaryTree
 {
 public:
-	BinaryNode * root;
-	//BinaryTree(BinaryNode * root):root(root)
-	//{ }
-	void inorder(BinaryNode * n) {
+	BinaryNode* root;
+	BinaryTree(BinaryNode * root):root(root)
+	{ }
+	void inorder(BinaryNode* n) {
 		if (n != NULL)
 		{
 			if (n->getLeft() != NULL)
@@ -67,7 +69,7 @@ public:
 	void postorder(BinaryNode * n) {
 		if (n != NULL)
 		{
-			
+
 			if (n->getLeft() != NULL)
 				postorder(n->getLeft());
 			if (n->getRight() != NULL)
@@ -75,6 +77,25 @@ public:
 			cout << n->getData();
 
 		}
+	}
+	void insert(int num, BinaryNode* root) {
+		count2++;
+		if (num < root->data)
+			if (root->getLeft() == NULL) {
+				BinaryNode* newNode = new BinaryNode(num);
+				root->left = newNode;
+			}
+			else
+				insert(num, root->getLeft());
+		else
+			if (root->getRight() == NULL) {
+				BinaryNode* newNode = new BinaryNode(num);
+				root->right = newNode;
+			}
+			else
+				insert(num, root->getRight());
+
+
 	}
 
 };
@@ -87,40 +108,43 @@ int main(void) {
 
 	int N;
 	cin >> N;
-	vector<BinaryNode *> vec;
-	
+	/*vector<BinaryNode*> vec;
+
 	for (int i = 0; i < N; i++)
 		vec.push_back(new BinaryNode());
+*/
 
-	for (int i = 0; i < N; i++) {
-		char nodeName;
-		char leftNode;
-		char rightNode;
-		cin >> nodeName;
-		cin >> leftNode;
-		cin >> rightNode;
-		//vec.push_back(new BinaryNode());
-		int index = nodeName - 'A';
-		vec[index]->data = nodeName;
-		if (leftNode == '.')
-			vec[index]->left = NULL;
-		else
-			vec[index]->left =vec[leftNode - 'A'];
+	int first;
+	cin >> first;
+	BinaryNode* node = new BinaryNode(first);
+	BinaryTree* bt = new BinaryTree(node);
+	cout << count2<<"\n";
+	int num;
+	for (int i = 1; i < N; i++) {
+		cin >> num;
 
-		if (rightNode == '.')
-			vec[index]->right = NULL;
-		else
-			vec[index]->right = vec[rightNode - 'A'];
+		bt->insert(num, node);
+		cout << count2 << "\n";
+		//char nodeName;
+		//char leftNode;
+		//char rightNode;
+		//cin >> nodeName;
+		//cin >> leftNode;
+		//cin >> rightNode;
+		////vec.push_back(new BinaryNode());
+		//int index = nodeName - 'A';
+		//vec[index]->data = nodeName;
+		//if (leftNode == '.')
+		//	vec[index]->left = NULL;
+		//else
+		//	vec[index]->left = vec[leftNode - 'A'];
+
+		//if (rightNode == '.')
+		//	vec[index]->right = NULL;
+		//else
+		//	vec[index]->right = vec[rightNode - 'A'];
 
 	}
-
-	BinaryTree * bt = new BinaryTree();
-
-	bt->preorder(vec[0]);
-	cout << "\n";
-	bt->inorder(vec[0]);
-	cout << "\n";
-	bt->postorder(vec[0]);
 
 
 
