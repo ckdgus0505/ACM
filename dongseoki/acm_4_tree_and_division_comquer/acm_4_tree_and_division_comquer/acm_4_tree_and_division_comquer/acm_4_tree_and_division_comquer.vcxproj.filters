@@ -26,5 +26,8 @@
     <ClCompile Include="matrix_multiply_2740.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="tree_circuit_1991.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
