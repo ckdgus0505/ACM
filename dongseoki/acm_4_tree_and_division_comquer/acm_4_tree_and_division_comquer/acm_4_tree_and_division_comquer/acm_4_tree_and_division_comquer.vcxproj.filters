@@ -38,5 +38,14 @@
     <ClCompile Include="binary_search_tree_5639.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="use_map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dolphin_code_2957.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="crocus_code_2250.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

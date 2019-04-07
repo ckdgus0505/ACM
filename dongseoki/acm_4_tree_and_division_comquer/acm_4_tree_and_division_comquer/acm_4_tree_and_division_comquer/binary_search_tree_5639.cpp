@@ -110,14 +110,14 @@ int main(void) {
 	
 	
 	int N;
-	if (scanf_s("%d", &N) == -1)
+	if (scanf_s("%d", &N) == EOF)
 		return 0;
 	BinaryNode * node = new BinaryNode(N);
 	BinaryTree* bt = new BinaryTree(node);
 	while (true) {
 		int N;
-		cin >> N;
-		if (scanf_s("%d", &N) == -1)
+//		cin >> N;
+		if (scanf_s("%d", &N) == EOF)
 			break;
 		bt->insert(N, node);
 	}
