@@ -51,13 +51,16 @@
     <ClCompile Include="2957_이진탐색트리.cpp">
       <Filter>소스 파일\4주차</Filter>
     </ClCompile>
-    <ClCompile Include="13325_이진트리.cpp">
-      <Filter>소스 파일\4주차</Filter>
-    </ClCompile>
     <ClCompile Include="1991_트리순회.cpp">
       <Filter>소스 파일\4주차</Filter>
     </ClCompile>
     <ClCompile Include="2250_트리의 높이와 너비.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="5639_이진검색트리.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2740_행렬곱셈.cpp">
       <Filter>소스 파일\4주차</Filter>
     </ClCompile>
   </ItemGroup>
