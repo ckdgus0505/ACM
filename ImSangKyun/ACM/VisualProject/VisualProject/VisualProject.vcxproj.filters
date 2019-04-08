@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\3주차">
       <UniqueIdentifier>{af9e49ec-f27f-4726-a14b-98fab899130e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4주차">
+      <UniqueIdentifier>{df78f746-cf60-446e-a8a5-2e38d60a7ece}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1005_ACMCraft.cpp">
@@ -44,6 +47,18 @@
     </ClCompile>
     <ClCompile Include="2133_타일채우기.cpp">
       <Filter>소스 파일\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2957_이진탐색트리.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="13325_이진트리.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="1991_트리순회.cpp">
+      <Filter>소스 파일\4주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2250_트리의 높이와 너비.cpp">
+      <Filter>소스 파일\4주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
