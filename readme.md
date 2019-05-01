@@ -40,3 +40,10 @@
 > 3038 : [완전 이진 트리](https://www.acmicpc.net/problem/3038)
 > 13325 : [이진 트리](https://www.acmicpc.net/problem/13325)
 > - ( 3038, 13325는 시간 남으면 풀기 )
+
+* 5주차 문제 (19.04.30.~19.05.07)
+> 1260 : [DFS와 BFS](https://www.acmicpc.net/problem/1260)
+> 4963 : [섬의 개수](https://www.acmicpc.net/problem/4963)
+> 2178 : [미로탐색](https://www.acmicpc.net/problem/2178)
+> 2631 : [줄세우기](https://www.acmicpc.net/problem/2631)
+> 14502 : [연구소](https://www.acmicpc.net/problem/14502)
