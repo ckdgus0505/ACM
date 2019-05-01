@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-int N, C;				// N : 수열의 크기, C : 카운터 값
+int N, C = 0;				// N : 수열의 크기, C : 카운터 값
 typedef struct node {
 	int value;			//노드의 값
 	node* lnode = NULL;	// 왼쪽 자식
 	node* rnode = NULL;	// 오른쪽 자식
 }node;
-
+node* tree = new node;
 void insert(int  X, node* N)
 {
 	C++;						// 카운터 C값을 1 증가시킨다
@@ -48,14 +48,14 @@ int main(void)
 
 	cin >> N;
 	cin >> tmp;
-	node *A = new node;
+	//node *tree = new node;
 
-	A->value = tmp;
+	tree->value = tmp;
 	cout << C << '\n';
 	for (int i = 0; i < N-1; i++)
 	{
 		cin >> tmp;
-		insert(tmp, A );
+		insert(tmp, tree );
 	}
 
 	
