@@ -45,7 +45,7 @@ int main(void) {
 	string str;
 
 	for (int i = 0; i < N; ++i) {
-		cin >> str;
+		cin >> str;	//"11110000"
 		for (int j = 0; j < N; ++j) {
 			arr[i][j] = str.at(j) - '0';
 		}
