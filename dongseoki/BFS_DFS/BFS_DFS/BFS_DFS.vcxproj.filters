@@ -35,5 +35,8 @@
     <ClCompile Include="research_center_14502.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="line_up_a_line_2631.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
