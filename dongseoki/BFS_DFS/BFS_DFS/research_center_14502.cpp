@@ -57,6 +57,8 @@ void infection_start(void) {//vector<vector<int>> & copiedmap
 		}
 	}
 
+
+	//최대값을 갱신한다.
 	if (max_safe_area < count) {
 		max_safe_area = count;
 		savedmap = copiedmap;
