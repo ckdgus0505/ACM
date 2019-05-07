@@ -1,15 +1,13 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-void coloring();	// 같은 섬을 한 색으로 색칠한다.
+void visiting(int, int);	// 같은 섬을 한 색으로 색칠한다.
 int max_color;	// 색칠한 색의 수
-int mix_color;	// 섞인 색의 수
 int w, h; // h행 w열의 지도 크기를 받는 변수
 vector<vector<int>> map;
-int adj[4][2] = { {0, -1}, {-1, -1}, {-1, 0}, {-1, 1}};// 인접한 곳 탐색할때 사용하는 vector // 4X2, 0: y, 1: x
-vector<vector<int>> mixx_color;
+int adj[8][2] = { {-1, 0}, {-1, 1}, {0,1}, {1,1}, {1,0}, {1,-1}, {0, -1}, {-1, -1} };// 인접한 곳 탐색할때 사용하는 vector // 4X2, 0: y, 1: x
+vector<vector<int>> visited; // 방문한 섬을 표시해주는 벡터
 
-int count_mixx_color();
 int main(void)
 {
 	ios::sync_with_stdio(false);
@@ -22,7 +20,7 @@ int main(void)
 		cin >> w >> h;
 		if (w == 0 && h == 0) break; // w,h 모두 0이면 break
 		map.assign(h, vector<int>(w, 0));
-		mixx_color.assign(625, vector<int>(625, 0));
+		visited.assign(h, vector<int>(w, 0));
 		for (int i = 0; i < h; i++)
 		{
 			for (int j = 0; j < w; j++)
@@ -33,14 +31,13 @@ int main(void)
 			}
 		}
 		max_color = 0;
-		mix_color = 0;
-		coloring();
-		cout << max_color - count_mixx_color() << '\n';
+		visiting();
+		cout << max_color << '\n';
 
 	}
 	return 0;
 }
-void coloring()
+void visiting(int nowY, int nowX)
 {
 	for (int i = 0 ; i < h; i++)
 	{
@@ -48,40 +45,22 @@ void coloring()
 		{
 			if (map[i][j] == -1) // 땅일 경우
 			{
-				int color_count = 0;
-				for (int k = 0; k < 4; k++)
+				int ny, nx; // nextX, nextY
+				visited[i][j] = 1;
+				for (int k = 0; k < 8; k++)
 				{
-					if ((i + adj[k][0] >= 0 && j + adj[k][1] >= 0 && j + adj[k][1] < w) && map[i + adj[k][0]] [j + adj[k][1]] > 0)
+					ny = adj[k][0];
+					nx = adj[k][1];
+					if (0 <= j + nx && j + nx < w && 0 <= i +  ny && i + ny < h)
 					{
-						if (map[i][j] != map[i + adj[k][0]][j + adj[k][1]])
+						if (map[i + ny][j + nx] == -1 && visited[i + ny][j + nx] != 1)
 						{
-							if (map[i][j] != -1)
-							{
-								mixx_color[map[i][j]][map[i + adj[k][0]][j + adj[k][1]]] = 1;
-								mixx_color[map[i + adj[k][0]][j + adj[k][1]]][map[i][j]] = 1;
-							}
-							color_count++;
-							map[i][j] = map[i + adj[k][0]][j + adj[k][1]];
+							coloring(i + ny, j + nx);
 						}
-
 					}
-					
+
 				}
-				if (map[i][j] == -1) map[i][j] = ++max_color; ///주변에 색이 없으면 새로운 색으로 채움 
-				if (color_count > 1) mix_color++;
 			}
 		}
 	}
-}
-int count_mixx_color()
-{
-	int sum = 0;
-	for (int i = 0; i < 625; i++)
-	{
-		for(int j = 0; j < 625; j++)
-		{
-			sum += mixx_color[i][j];
-		}
-	}
-	return sum / 2;
 }
