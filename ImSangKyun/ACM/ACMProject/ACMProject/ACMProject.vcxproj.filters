@@ -15,27 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="1290_DFS와BFS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DFS_BFS_1260.cpp">
+    <ClCompile Include="4963_섬의개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="the_number_of_islands_4963.cpp">
+    <ClCompile Include="2178_미로탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="maze_search_2178.cpp">
+    <ClCompile Include="2631_줄세우기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="research_center_14502.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="line_up_a_line_2631.cpp">
+    <ClCompile Include="14502_연구소.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
