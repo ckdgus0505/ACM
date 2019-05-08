@@ -13,22 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\5주차">
+      <UniqueIdentifier>{40a55d04-caff-4778-a711-174f629abb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6주차">
+      <UniqueIdentifier>{cc118ab1-e2c9-47aa-bed2-a2d54a9d8325}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1290_DFS와BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4963_섬의개수.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\5주차</Filter>
     </ClCompile>
     <ClCompile Include="2178_미로탐색.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\5주차</Filter>
     </ClCompile>
     <ClCompile Include="2631_줄세우기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="4963_섬의개수.cpp">
+      <Filter>소스 파일\5주차</Filter>
     </ClCompile>
     <ClCompile Include="14502_연구소.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\5주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
