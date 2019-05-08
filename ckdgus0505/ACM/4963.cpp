@@ -55,7 +55,6 @@ void visiting()
 	{
 		pair<int, int> now = visit_queue.front();
 		visit_queue.pop();
-		visited[now.first][now.second] = 1; // 방문한 곳 체크
 		for (int k = 0; k < 8; k++) // 상하좌우대각선 8방향을 탐색한다.
 		{
 			int newY = now.first + adj[k][0]; // 새로운 y 
@@ -64,6 +63,7 @@ void visiting()
 			{
 				if (map[newY][newX] == 1 && visited[newY][newX] == 0) // 옆에있는곳이 섬이고, 안간곳이면
 				{
+					visited[newY][newX] = 1; // 방문할 곳 다시 큐에 안 넣도록
 					visit_queue.push(pair<int, int>(newY, newX)); // 새로운 y,x를 방문할 예정인 큐에 넣음
 				}
 			}
