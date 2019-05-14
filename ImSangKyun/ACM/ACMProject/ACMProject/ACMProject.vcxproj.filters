@@ -17,7 +17,7 @@
       <UniqueIdentifier>{40a55d04-caff-4778-a711-174f629abb73}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\6주차">
-      <UniqueIdentifier>{cc118ab1-e2c9-47aa-bed2-a2d54a9d8325}</UniqueIdentifier>
+      <UniqueIdentifier>{ef91f696-df92-4f2a-ace1-ca12aa2a8d16}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="14502_연구소.cpp">
       <Filter>소스 파일\5주차</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_최단경로.cpp">
+      <Filter>소스 파일\6주차</Filter>
+    </ClCompile>
+    <ClCompile Include="11657_타임머신.cpp">
+      <Filter>소스 파일\6주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
