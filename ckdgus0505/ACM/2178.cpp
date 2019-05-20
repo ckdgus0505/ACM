@@ -28,7 +28,7 @@ int main(void)
 		}
 	}
 
-	cout << counting(pair<int, int>(0,0),0) +1 << '\n'; // 도착지점까지 카운트
+	cout << counting(pair<int, int>(0,0),1)<< '\n'; // 도착지점까지 카운트
 
 }
 int counting(pair<int, int> now, int count)
