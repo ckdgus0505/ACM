@@ -61,7 +61,7 @@ int main(void)
 	//dijkstra(src);
 	for (int i = 2; i < V; i++) {
 		if (!result.empty()) {
-			if (result[i] < numeric_limits<int>::max()- 500000)
+			if (result[i] < numeric_limits<int>::max())
 				printf("%d\n", result[i]);
 			else
 				printf("%d\n", -1);
