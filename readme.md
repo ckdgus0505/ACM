@@ -1,17 +1,3 @@
-Jupyter Notebook
-Untitled
-(unsaved changes)
-Current Kernel Logo
-Python 3 
-File
-Edit
-View
-Insert
-Cell
-Kernel
-Widgets
-Help
-
 # ACM 대회 대비 알고리즘 스터디
 ​
 ## 인원
@@ -19,7 +5,9 @@ Help
 * 201511051 임상균
 * 201511061 정창현
 ​
-## 계획
+---------------------------------------------------
+
+## 1학기 계획
    ![planning_chart.png](./참고자료/planning_chart.png)
    
 ## 문제 풀이
@@ -75,3 +63,18 @@ Help
 > flow chart 그리기!- 최단경로알고리즘 4개에 대해서 사용 되는 경우와 Big O 공부하기!!
 
 > 2718 : [타일 채우기](https://www.acmicpc.net/problem/2718)
+
+-----------------------------------------------------------
+
+## 여름방학 계획
+   ![july_plan.png](./참고자료/july_plan.png)
+   
+## 문제 풀이
+​
+* 1주차 문제 (19.06.24~19.07.04)
+​
+> 15650 : [N과 M (2)](https://www.acmicpc.net/problem/15650)
+> 14888 : [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+> 14501 : [퇴사](https://www.acmicpc.net/problem/14501)
+> 15684 : [사다리 조작](https://www.acmicpc.net/problem/15684)
+> 16197 : [두 동전](https://www.acmicpc.net/problem/16197)
