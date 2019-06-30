@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+int intarr[9];
 int main(void) {
 	int N;
 	int M;
@@ -8,6 +10,32 @@ int main(void) {
 	cin >> N;
 	cin >> M;
 
+	selected(0);
 	
 	return 0;
+}
+
+void selected(int count){
+	if (count == M) {
+		print_numbers();
+		cout << "\n";
+		return;
+	}
+
+	for (int i = 1; i <= N; i++) {
+		if (intarr[i] != 0) {
+			intarr[i] = 1;
+			selected(count + 1);
+			intarr[i] = 0;
+		}
+
+	}
+}
+
+
+void print_numbers() {
+	for (int i = 1; i < N; i++) {
+		if (intarr[i] == 1)
+			cout << i << " ";
+	}
 }
