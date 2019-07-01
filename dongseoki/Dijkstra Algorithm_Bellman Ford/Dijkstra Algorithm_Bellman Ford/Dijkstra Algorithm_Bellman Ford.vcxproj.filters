@@ -36,5 +36,8 @@
     <ClCompile Include="Resignation_14501.cpp">
       <Filter>0628 워밍업 코딩</Filter>
     </ClCompile>
+    <ClCompile Include="ladder_manipulation_15684.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
