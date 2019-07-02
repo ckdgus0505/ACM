@@ -13,31 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="0628 워밍업 코딩">
-      <UniqueIdentifier>{31fe00ad-c627-4bec-9579-10b17eb75757}</UniqueIdentifier>
+    <Filter Include="소스 파일\1주차">
+      <UniqueIdentifier>{de013bb9-6e5f-4215-849d-721a3d032f54}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dijkstra Algorithm_Bellman Ford.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="15650_1.cpp">
+      <Filter>소스 파일\1주차</Filter>
     </ClCompile>
-    <ClCompile Include="daic_ans.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="15650_2.cpp">
+      <Filter>소스 파일\1주차</Filter>
     </ClCompile>
-    <ClCompile Include="bellman_11657_time_machine.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NandM_2_15650.cpp">
-      <Filter>0628 워밍업 코딩</Filter>
-    </ClCompile>
-    <ClCompile Include="insert_operation_14888.cpp">
-      <Filter>0628 워밍업 코딩</Filter>
-    </ClCompile>
-    <ClCompile Include="Resignation_14501.cpp">
-      <Filter>0628 워밍업 코딩</Filter>
-    </ClCompile>
-    <ClCompile Include="ladder_manipulation_15684.cpp">
-      <Filter>0628 워밍업 코딩</Filter>
+    <ClCompile Include="14501.cpp">
+      <Filter>소스 파일\1주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -37,8 +37,19 @@ int main(void) {
 	arr = vector<vector<pair<int, int>>>(N+1);
 	for (int i = 0; i < M; ++i) {
 		int a, b, c;
+		bool duplicate = false;
 		cin >> a >> b >> c;
-		arr[a].push_back(make_pair(b, c));
+		for (int j = 0; j < arr[a].size(); ++j) {
+			if (arr[a][j].first == b) {
+				duplicate = true;
+				if (arr[a][j].second > c) {
+					arr[a][j].second = c;
+				}
+			}
+		}
+		if (!duplicate) {
+			arr[a].push_back(make_pair(b, c));
+		}
 	}
 	vector<int> res = bellmanFord(1);
 	if (res[0] == -1)	cout << -1 << '\n';
