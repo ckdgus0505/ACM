@@ -108,5 +108,8 @@
     <ClCompile Include="14501.cpp">
       <Filter>소스 파일\S-1주차</Filter>
     </ClCompile>
+    <ClCompile Include="15684.cpp">
+      <Filter>소스 파일\S-1주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
