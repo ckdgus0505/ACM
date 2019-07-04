@@ -27,5 +27,14 @@
     <ClCompile Include="14501.cpp">
       <Filter>소스 파일\1주차</Filter>
     </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="15684.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="16197.cpp">
+      <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
