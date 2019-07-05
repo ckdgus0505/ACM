@@ -13,37 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\5주차">
-      <UniqueIdentifier>{40a55d04-caff-4778-a711-174f629abb73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\6주차">
-      <UniqueIdentifier>{ef91f696-df92-4f2a-ace1-ca12aa2a8d16}</UniqueIdentifier>
+    <Filter Include="0628 워밍업 코딩">
+      <UniqueIdentifier>{31fe00ad-c627-4bec-9579-10b17eb75757}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1290_DFS와BFS.cpp">
-      <Filter>소스 파일\5주차</Filter>
-    </ClCompile>
-    <ClCompile Include="2178_미로탐색.cpp">
-      <Filter>소스 파일\5주차</Filter>
-    </ClCompile>
-    <ClCompile Include="2631_줄세우기.cpp">
-      <Filter>소스 파일\5주차</Filter>
-    </ClCompile>
-    <ClCompile Include="4963_섬의개수.cpp">
-      <Filter>소스 파일\5주차</Filter>
-    </ClCompile>
-    <ClCompile Include="14502_연구소.cpp">
-      <Filter>소스 파일\5주차</Filter>
-    </ClCompile>
-    <ClCompile Include="1753_최단경로.cpp">
-      <Filter>소스 파일\6주차</Filter>
-    </ClCompile>
-    <ClCompile Include="11657_타임머신.cpp">
-      <Filter>소스 파일\6주차</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="Dijkstra Algorithm_Bellman Ford.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="daic_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bellman_11657_time_machine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NandM_2_15650.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_operation_14888.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="Resignation_14501.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="ladder_manipulation_15684.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="two_coins_16197.cpp">
+      <Filter>0628 워밍업 코딩</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
