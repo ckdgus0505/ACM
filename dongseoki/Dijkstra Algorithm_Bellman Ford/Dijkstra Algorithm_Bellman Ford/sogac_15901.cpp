@@ -12,28 +12,30 @@ int N; //N개의 쓰레기.
 int M; //M개의 소각로 칸
 int K; // 종류 K개.
 int Q; // 명령어의 개수.
-int L, R; // 소각 위치.
-int p, q; // p번 종류의 쓰레기 q개를 현재 대기열 뒤에 넣는다.
-int t; // 재활용을 위해 현재 대기열 맨 앞의 쓰레기 t개를 제거한다.
+
+
+
 vector<int> sogac;
 queue<int> wait;
+queue<int> save;
 
-int command(int cnum) {
-	
-}
 
 void sogac_jacup(void) {
 	//이렇게 한 번 태우고 나면 L번 칸부터 R번 칸까지는 비게 되는데, 
 	//그때 대기열의 앞에서부터 순서대로 쓰레기를 가져와 L번 칸부터 R번 칸까지 채운다. 
 	//쓰레기를 가져와 채우다가 더 이상 대기열 상에 쓰레기가 남지 않았으면 그 뒤로는 아무것도 놓지 않는다.
-	cin >> L, R;
+	int L, R; // 소각 위치.
+	cin >> L;
+	cin >>R;
 	// 태우기
 	for (int i = L; i <= R; i++)
 		sogac[i] = 0;
 	int qsize = wait.size();
 
 	// 쓰레기 가져와 채우기. 
-	for (int i = L; i <= min((R - L + 1), qsize); i++) {
+	//cout << "R-L+1 : qsize =" << R - L + 1 << " : " << qsize << "\n";
+	int min_num = min((R - L + 1), qsize);
+	for (int i = L; i < L+min_num; i++) {
 		sogac[i] = wait.front();
 		wait.pop();
 	}
@@ -42,7 +44,8 @@ void sogac_jacup(void) {
 void print_waste(void) {
 	int i =1;
 	cin >> i;
-	cout << sogac[i] << " ";
+	//cout << sogac[i] << " ";
+	save.push(sogac[i]);
 }
 
 void print_sogac(void) {
@@ -51,6 +54,7 @@ void print_sogac(void) {
 }
 
 void insert(void) {
+	int p, q; // p번 종류의 쓰레기 q개를 현재 대기열 뒤에 넣는다.
 	//p번 종류의 쓰레기 q개를 현재 대기열 뒤에 넣는다.
 	cin >> p;
 	cin >> q;
@@ -59,15 +63,47 @@ void insert(void) {
 	}
 }
 void recycle(void) {
+	int t; // 재활용을 위해 현재 대기열 맨 앞의 쓰레기 t개를 제거한다.
+	cin >> t;
 	//재활용을 위해 현재 대기열 맨 앞의 쓰레기 t개를 제거한다.
 	int qsize = wait.size();
-	for (int t = 0; t < min(t, qsize); t++)
+	for (int i = 0; i < min(t, qsize); i++)
 		wait.pop();
 
 }
 
+void print_wait(void) {
+	int qsize = wait.size();
+	int num;
+	if (qsize > 20)
+		return;
+	for (int i = 0; i < qsize; i++) {
+		num = wait.front();
+		cout << num << " ";
+		wait.pop();
+		wait.push(num);
+	}
+}
+
+void print_state(void) {
+	cout << "-----------------\n";
+	cout << "sogac\n";
+	print_sogac();
+	cout << "\nwait\n";
+	print_wait();
+	cout << "\n-----------------\n";
+
+
+}
+
 int main(void) {
-	cin >> N, M, K, Q;
+	ios_base::sync_with_stdio(0); // https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio 싱크를 안하면 속도가 빨라진다 단일로 사용가능하다를 알수 있음.
+	cin.tie(0); // https://codecollector.tistory.com/381 , https://su-m.tistory.com/7 , tie 안하면 입력을 먼저 받게 된다.  속도 향상은 가능
+
+	cin >> N;
+	cin >> M;
+	cin >> K;
+	cin >> Q;
 	int cnum; // 명령어 번호.
 
 	sogac.assign(M+1, 0); // index 1부터 사용! 
@@ -106,8 +142,15 @@ int main(void) {
 			recycle();
 			break;
 		}
-		cout << "\n";
-		print_sogac();
+		//print_state();
 	}
+
+	int ssize = save.size();
+	for (int i = 0; i < ssize; i++) {
+		cout << save.front() << " ";
+		save.pop();
+	}
+	cout << "\n";
+	print_sogac();
 	return 0;
 }
