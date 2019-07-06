@@ -8,8 +8,6 @@ int M; //M개의 소각로 칸
 int K; // 종류 K개.
 int Q; // 명령어의 개수.
 
-
-queue<int> wait;
 vector<int> sogac;
 
 int command(int cnum) {

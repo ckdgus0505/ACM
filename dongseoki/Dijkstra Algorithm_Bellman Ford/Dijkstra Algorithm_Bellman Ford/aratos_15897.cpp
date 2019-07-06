@@ -1,3 +1,6 @@
+//https://blog.naver.com/PostView.nhn?blogId=pasdfq&logNo=221319699850
+// 위 사이트 참고.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -25,50 +28,38 @@ void test(void) {
 int result(int n) {
 	int sum;
 
-	sum = n;
+	sum = 0;
 	int num = n - 1;
 	for (int i = 1; i <= n; i++) {
-		sum += num/i;
-		cout << sum << "\n";
+		sum += num/i +1;
+		//cout <<"i : "<<i<<" (num/i +1) :  "<<(num/i + 1) <<"\n";
 	}
 	return sum;
 }
 
-int result2(int n) { // 3보다 큰 경우에만 이 함수를
-	int sum;
-	int lim = int(sqrt(n));
-	sum = n;
-	int num = n - 1;
+long long solve(long long N) {
+	long long sum = 0;
+	long long step = 0;
+	for (long long i = 1; i <= N; i += step) {
+		int divided = (N - 1) / i;
+		int rem = (N - 1) % i;
+		step = (divided == 0 ? 1 : rem / divided + 1);
+		sum += (1 + (N - 1) / i) * step;
 
-	int a1 = 1;
-	int b1 = (n - 1) / a1;
-	int a2;
-	int b2;
-	for (int i = 2; i <= lim+1; i++) {
-		//1.
-
-		a2 = i;
-		b2 = (n - 1) / i;
-		//cout << "a1/b1  a2/b2" << "\n";
-		//cout << a1 << " " << b1 << " " << a2 << " " << b2 << "\n";
-		//절대값 출력함수.
-		sum += abs(b2 - b1) * a1;
-		cout << abs(b2 - b1) * a1 << "\n";
-		sum += abs(a2 - a1) * b1;
-		cout << abs(a2 - a1) * b1 << "\n";
-		a1 = a2;
-		b1 = b2;
+		//cout << "(1 + (N - 1) / i): " << (1 + (N - 1) / i) <<" rem : divided "<<rem<<" | "<<divided <<" step: " << step << "\n";
 	}
 	return sum;
 }
 
 int main(void) {
 	int n;
-	cin >> n;
-	//for(int i=3;i<20;i++)
-		cout << result(12)<<" "<<result2(12)<<"\n";
-	test();
 
+	//test();
+
+	cin >> n;
+	//result(n);
+	cout << solve(n);
+	
 
 			
 }
