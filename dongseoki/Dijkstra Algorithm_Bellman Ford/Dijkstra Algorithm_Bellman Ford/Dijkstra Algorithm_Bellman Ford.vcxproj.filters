@@ -16,6 +16,9 @@
     <Filter Include="0628 워밍업 코딩">
       <UniqueIdentifier>{31fe00ad-c627-4bec-9579-10b17eb75757}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UCPC">
+      <UniqueIdentifier>{ea3b32db-f78a-4969-b856-675df8d12895}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dijkstra Algorithm_Bellman Ford.cpp">
@@ -41,6 +44,18 @@
     </ClCompile>
     <ClCompile Include="two_coins_16197.cpp">
       <Filter>0628 워밍업 코딩</Filter>
+    </ClCompile>
+    <ClCompile Include="math15894.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="card_match_play_15903.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="aratos_15897.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="sogac_15901.cpp">
+      <Filter>UCPC</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
