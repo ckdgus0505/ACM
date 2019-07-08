@@ -57,5 +57,11 @@
     <ClCompile Include="sogac_15901.cpp">
       <Filter>UCPC</Filter>
     </ClCompile>
+    <ClCompile Include="15896_test.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="sogac_v2_15901.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
