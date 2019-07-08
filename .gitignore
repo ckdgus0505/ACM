@@ -441,3 +441,5 @@ ASALocalRun/
 healthchecksdb
 
 # End of https://www.gitignore.io/api/c,c++,windows,visualstudio
+ckdgus0505/ACM/ACM.vcxproj
+ckdgus0505/ACM/ACM.vcxproj.filters
