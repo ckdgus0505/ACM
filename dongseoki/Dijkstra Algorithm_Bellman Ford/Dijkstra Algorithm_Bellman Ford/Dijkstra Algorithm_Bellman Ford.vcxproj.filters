@@ -69,5 +69,8 @@
     <ClCompile Include="tree_and_color_15899.cpp">
       <Filter>UCPC</Filter>
     </ClCompile>
+    <ClCompile Include="test_15892_robot_which_is_picking_candy.cpp">
+      <Filter>UCPC</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
