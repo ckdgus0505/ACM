@@ -85,11 +85,11 @@ int main() {
 
 	int n, m;
 	cin >> n >> m;
-	MaxFlow mf(n, 1, n);
+	MaxFlow mf(n, 1, n); // 길이 source sink 순이다.
 	for (int i = 0; i < m; i++) {
 		int u, v, cap;
 		cin >> u >> v >> cap;
-		mf.add_edge(u, v, cap);
+		mf.add_edge(u, v, cap); // 시작 , 끝 사탕.
 		mf.add_edge(v, u, cap);
 	}
 	cout << mf.flow();
