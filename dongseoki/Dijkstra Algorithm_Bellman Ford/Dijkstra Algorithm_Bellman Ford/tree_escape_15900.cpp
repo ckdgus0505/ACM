@@ -14,7 +14,7 @@ int result;
 void dfs(int state, int sum) {
 	//visited[state] = true;
 
-	if (trvec[state].empty() == true) {
+	if (trvec[state].size() == 1 && visited[trvec[state][0]] ==true) {
 		result += sum;
 		return;
 	}
@@ -47,9 +47,9 @@ int main(void) {
 
 	dfs(0, 0);
 	if (result % 2 == 0)
-		cout << "NO";
+		cout << "No";
 	else
-		cout << "YES";
+		cout << "Yes";
 
 	return 0;
 }
