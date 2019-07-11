@@ -16,7 +16,7 @@ node* adj;
 
 int N, M, C;
 int answer;
-int **cache;
+int *cache;
 
 int fvc(int v, int c);
 int main(void)
@@ -27,12 +27,8 @@ int main(void)
 	cin >> N >> M >> C;
 	colors.assign(N + 1, 0);
 
-	cache = new int*[N + 1];
-	for (int i = 0; i < N + 1; i++) {
-		cache[i] = new int[C + 1];
-		memset(cache[i], -1, sizeof(int)* (C+1));
-	}
-
+	cache = new int[N + 1];
+	memset(cache, -1, sizeof(int) * (N + 1));
 	adj = new node[N+1];
 
 	for (int i = 1; i <= N; i++)
@@ -40,7 +36,7 @@ int main(void)
 		cin >> colors[i];
 	}
 
-	for (int i = 1; i <= N-1; i++) 
+	for (int i = 1; i <= N-1; i++)
 	{
 		int tmp1, tmp2;
 		cin >> tmp1 >> tmp2;
@@ -60,6 +56,7 @@ int main(void)
 		int tmp1, tmp2;
 		cin >> tmp1 >> tmp2;
 		answer += fvc(tmp1, tmp2);
+		memset(cache, -1, sizeof(int) * (N + 1));
 	}
 	cout << answer % 1000000007 << '\n';
 }
@@ -68,7 +65,7 @@ int fvc(int v, int c)
 	if (adj[v].next == nullptr && colors[v] <= c) return 1;
 	else if (adj[v].next == nullptr && colors[v] > c) return 0;
 
-	int& ret = cache[v][c];
+	int& ret = cache[v];
 	if (ret != -1) return ret;
 
 

@@ -114,9 +114,6 @@
     <ClCompile Include="15684.cpp">
       <Filter>소스 파일\S-1주차</Filter>
     </ClCompile>
-    <ClCompile Include="15892.cpp">
-      <Filter>소스 파일\S-1주차</Filter>
-    </ClCompile>
     <ClCompile Include="15894.cpp">
       <Filter>소스 파일\S-2주차</Filter>
     </ClCompile>
@@ -133,6 +130,12 @@
       <Filter>소스 파일\S-2주차</Filter>
     </ClCompile>
     <ClCompile Include="15899.cpp">
+      <Filter>소스 파일\S-2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="15892.cpp">
+      <Filter>소스 파일\S-2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="15900.cpp">
       <Filter>소스 파일\S-2주차</Filter>
     </ClCompile>
   </ItemGroup>
