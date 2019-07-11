@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\1주차">
       <UniqueIdentifier>{de013bb9-6e5f-4215-849d-721a3d032f54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\UCPC2018 예선">
+      <UniqueIdentifier>{69b2557e-8383-4919-860d-fe7acbec922d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15650_1.cpp">
@@ -35,6 +38,18 @@
     </ClCompile>
     <ClCompile Include="16197.cpp">
       <Filter>소스 파일\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="15893_Pallindrom.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="15900.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="15900_fail.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="15900_success.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
