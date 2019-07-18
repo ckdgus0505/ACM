@@ -21,5 +21,8 @@
     <ClCompile Include="list_exercise.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
