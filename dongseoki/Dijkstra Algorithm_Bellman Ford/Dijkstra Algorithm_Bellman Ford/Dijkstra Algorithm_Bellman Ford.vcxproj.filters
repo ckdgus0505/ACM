@@ -22,6 +22,9 @@
     <Filter Include="UCPC2018본선">
       <UniqueIdentifier>{2af7d601-037d-45ff-897d-69e37ce68afa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Disjoint_set">
+      <UniqueIdentifier>{a5e07036-d60a-4019-a6c4-2ce6eae85ae4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dijkstra Algorithm_Bellman Ford.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="test_15892_robot_which_is_picking_candy.cpp">
       <Filter>UCPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression_of_set_1717.cpp">
+      <Filter>Disjoint_set</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
