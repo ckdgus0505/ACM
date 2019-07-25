@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\UCPC2018 예선">
       <UniqueIdentifier>{69b2557e-8383-4919-860d-fe7acbec922d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\연습">
+      <UniqueIdentifier>{1cdc2354-96cb-426a-9873-bbbf0fe53ebd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15650_1.cpp">
@@ -50,6 +53,27 @@
     </ClCompile>
     <ClCompile Include="15900_success.cpp">
       <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="11726_2xn타일링.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="Union_Find_Model 연습.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1717_집합의 표현.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="에디터전쟁%28DisjointSet심화%29.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1976_여행가자.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="4195_친구네트워크.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 단순검색.cpp">
+      <Filter>소스 파일\연습</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
