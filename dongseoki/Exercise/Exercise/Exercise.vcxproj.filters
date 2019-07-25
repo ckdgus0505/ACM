@@ -24,5 +24,11 @@
     <ClCompile Include="ex_string.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="binary_search_exercise.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_tree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
