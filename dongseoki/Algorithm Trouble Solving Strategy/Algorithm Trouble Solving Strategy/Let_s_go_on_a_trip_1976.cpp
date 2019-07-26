@@ -44,8 +44,8 @@ struct UnionFind {
 };
 
 int main(void) {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	//ios_base::sync_with_stdio(0);
+	//cin.tie(0);
 	int N;// N is number of citys.
 	int M; // M is number of citys which is included with trip plan.
 
