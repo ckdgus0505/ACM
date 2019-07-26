@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/1717
+
+
 #include <iostream>
 #include <vector>
 
@@ -40,10 +43,7 @@ int main(void) {
 	cin >> m;
 	int mode;
 	int a, b;
-
-
-
-	UnionFind uf(n+1);
+	UnionFind uf(n + 1);
 	for (int i = 0; i < m; i++) {
 		cin >> mode;
 		cin >> a;

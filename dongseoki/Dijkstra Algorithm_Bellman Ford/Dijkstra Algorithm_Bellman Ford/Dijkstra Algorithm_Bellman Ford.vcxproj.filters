@@ -25,6 +25,9 @@
     <Filter Include="Disjoint_set">
       <UniqueIdentifier>{a5e07036-d60a-4019-a6c4-2ce6eae85ae4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UCPC 2016 본선">
+      <UniqueIdentifier>{860f3710-8b85-4fe9-bf8f-6012b1bdb2ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dijkstra Algorithm_Bellman Ford.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="Expression_of_set_1717.cpp">
       <Filter>Disjoint_set</Filter>
+    </ClCompile>
+    <ClCompile Include="falling_diamond_13170.cpp">
+      <Filter>UCPC 2016 본선</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
