@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\S-1주차">
       <UniqueIdentifier>{c70dec8d-7fed-4142-9686-d5d2bb8e9d14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\문자열">
+      <UniqueIdentifier>{aa446300-b189-42d5-8cf9-f6f82a1cba0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1463.cpp">
@@ -138,28 +141,31 @@
     <ClCompile Include="15900.cpp">
       <Filter>소스 파일\S-2주차</Filter>
     </ClCompile>
-    <ClCompile Include="11720.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10809.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2675.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1152.cpp">
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="1157.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
-    <ClCompile Include="1152.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="2908.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
-    <ClCompile Include="15896.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="10809.cpp">
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="11654.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11720.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="15896.cpp">
+      <Filter>소스 파일\S-1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="15947.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
