@@ -1,3 +1,4 @@
+
 # ACM 대회 대비 알고리즘 스터디
 ​
 ## 인원
@@ -79,7 +80,14 @@
 > 15684 : [사다리 조작](https://www.acmicpc.net/problem/15684)
 > 16197 : [두 동전](https://www.acmicpc.net/problem/16197)
 
-
 * UCPC 2018 예선 (19.07.05~19.07.11)
-​
 > [UCPC 2018 예선](https://www.acmicpc.net/category/detail/1891)
+* UCPC 2016 (19.07.25)​
+> [UCPC 2016](https://www.acmicpc.net/category/detail/1510)
+* UCPC 2016 예선 (19.07.27)​
+> [UCPC 2019 예선](https://www.acmicpc.net/category/detail/2053)
+
+* 8월 1주차 문제 (19.08.02)
+​
+> 1916 : [최소비용 구하기](https://www.acmicpc.net/problem/1916)
+> 1504 : [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
