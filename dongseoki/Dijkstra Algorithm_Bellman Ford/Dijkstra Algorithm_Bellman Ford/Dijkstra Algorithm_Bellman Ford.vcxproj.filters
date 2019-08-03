@@ -87,5 +87,11 @@
     <ClCompile Include="falling_diamond_13170.cpp">
       <Filter>UCPC 2016 본선</Filter>
     </ClCompile>
+    <ClCompile Include="0802_dijkstra_1916.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0802_1504.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
