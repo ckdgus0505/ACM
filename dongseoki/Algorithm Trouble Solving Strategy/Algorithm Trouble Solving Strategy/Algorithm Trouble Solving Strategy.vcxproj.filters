@@ -34,6 +34,18 @@
     <Filter Include="소스 파일\UCPC_2019_예선">
       <UniqueIdentifier>{8862cd1b-656f-4feb-b303-21f387a09fe3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\07 graph">
+      <UniqueIdentifier>{7c6bf628-29c9-4686-a113-d8c5b5d411a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\30 shortest path algorithm">
+      <UniqueIdentifier>{43d460f2-74a5-42a6-9471-0929c6339da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라">
+      <UniqueIdentifier>{223d3d57-6ea9-4f69-8c49-35c60f3b87f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06 tree\24 segment tree">
+      <UniqueIdentifier>{1ecfc0d7-345c-4265-8681-d741626c100e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -62,6 +74,18 @@
     </ClCompile>
     <ClCompile Include="H.cpp">
       <Filter>소스 파일\UCPC_2019_예선</Filter>
+    </ClCompile>
+    <ClCompile Include="0803_1504.cpp">
+      <Filter>소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="daikstra_1917.cpp">
+      <Filter>소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_tree_example.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
+    </ClCompile>
+    <ClCompile Include="range_minimum_sum_2042.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
