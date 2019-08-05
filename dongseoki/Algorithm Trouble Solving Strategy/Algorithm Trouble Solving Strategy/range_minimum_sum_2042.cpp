@@ -1,3 +1,7 @@
+//https://www.acmicpc.net/blog/view/21
+//
+//https://greeksharifa.github.io/algorithm%20&%20data%20structure/2018/07/09/algorithm-fenwick-tree/
+
 #include <iostream>
 #include <vector>
 #include <limits>

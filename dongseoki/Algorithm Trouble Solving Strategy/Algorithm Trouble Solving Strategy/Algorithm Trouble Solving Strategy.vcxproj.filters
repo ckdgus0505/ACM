@@ -87,5 +87,8 @@
     <ClCompile Include="range_minimum_sum_2042.cpp">
       <Filter>소스 파일\06 tree\24 segment tree</Filter>
     </ClCompile>
+    <ClCompile Include="fenwicktree_example_2042.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
