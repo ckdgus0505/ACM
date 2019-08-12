@@ -52,7 +52,7 @@
     <Filter Include="소스 파일\07 graph\31 minimum spanning tree">
       <UniqueIdentifier>{2d1706be-549b-4aea-9122-fb384cdc17d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\07 graph\31 minimum spanning tree\kruscal 크루스칼">
+    <Filter Include="소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼">
       <UniqueIdentifier>{145261af-3197-4a08-8998-5c5d02215ab6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -106,7 +106,7 @@
       <Filter>소스 파일\06 tree\26 try</Filter>
     </ClCompile>
     <ClCompile Include="kruskal_exacmple.cpp">
-      <Filter>소스 파일\07 graph\31 minimum spanning tree\kruscal 크루스칼</Filter>
+      <Filter>소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
