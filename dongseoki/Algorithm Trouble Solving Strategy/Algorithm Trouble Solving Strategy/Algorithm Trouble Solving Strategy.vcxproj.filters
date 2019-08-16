@@ -34,6 +34,36 @@
     <Filter Include="소스 파일\UCPC_2019_예선">
       <UniqueIdentifier>{8862cd1b-656f-4feb-b303-21f387a09fe3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\07 graph">
+      <UniqueIdentifier>{7c6bf628-29c9-4686-a113-d8c5b5d411a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\30 shortest path algorithm">
+      <UniqueIdentifier>{43d460f2-74a5-42a6-9471-0929c6339da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라">
+      <UniqueIdentifier>{223d3d57-6ea9-4f69-8c49-35c60f3b87f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06 tree\24 segment tree">
+      <UniqueIdentifier>{1ecfc0d7-345c-4265-8681-d741626c100e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06 tree\26 try">
+      <UniqueIdentifier>{117f0173-fbf6-4447-8844-185ccc1bf460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\31 minimum spanning tree">
+      <UniqueIdentifier>{2d1706be-549b-4aea-9122-fb384cdc17d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼">
+      <UniqueIdentifier>{145261af-3197-4a08-8998-5c5d02215ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\31 minimum spanning tree\prim 프림">
+      <UniqueIdentifier>{23cdba19-b278-4e06-b965-20e3c8bc222b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\32 network flow">
+      <UniqueIdentifier>{93a705f3-3f16-487a-8781-4732c7063189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07 graph\32 network flow\ford-fulkerson algorithm 포드 풀커슨">
+      <UniqueIdentifier>{8d474bc3-11b8-44b7-864a-56578b15749d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -62,6 +92,36 @@
     </ClCompile>
     <ClCompile Include="H.cpp">
       <Filter>소스 파일\UCPC_2019_예선</Filter>
+    </ClCompile>
+    <ClCompile Include="0803_1504.cpp">
+      <Filter>소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="daikstra_1917.cpp">
+      <Filter>소스 파일\07 graph\30 shortest path algorithm\30.2 daikstra 다익스트라</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_tree_example.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
+    </ClCompile>
+    <ClCompile Include="range_minimum_sum_2042.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
+    </ClCompile>
+    <ClCompile Include="fenwicktree_example_2042.cpp">
+      <Filter>소스 파일\06 tree\24 segment tree</Filter>
+    </ClCompile>
+    <ClCompile Include="try using.cpp">
+      <Filter>소스 파일\06 tree\26 try</Filter>
+    </ClCompile>
+    <ClCompile Include="5052_phone_number_list_example.cpp">
+      <Filter>소스 파일\06 tree\26 try</Filter>
+    </ClCompile>
+    <ClCompile Include="kruskal_exacmple.cpp">
+      <Filter>소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼</Filter>
+    </ClCompile>
+    <ClCompile Include="prim_example.cpp">
+      <Filter>소스 파일\07 graph\31 minimum spanning tree\prim 프림</Filter>
+    </ClCompile>
+    <ClCompile Include="ford_fulkerson_example_adjacent_matrix.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\ford-fulkerson algorithm 포드 풀커슨</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
