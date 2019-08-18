@@ -49,4 +49,4 @@ int main() {
 }
 
 
-/출처: https://www.weeklyps.com/entry/프림-알고리즘-Prims-algorithm#d5 [weekly ps]
+//출처: https://www.weeklyps.com/entry/프림-알고리즘-Prims-algorithm#d5 [weekly ps]

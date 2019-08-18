@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\07 graph\32 network flow\ford-fulkerson algorithm 포드 풀커슨">
       <UniqueIdentifier>{8d474bc3-11b8-44b7-864a-56578b15749d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭">
+      <UniqueIdentifier>{fe6d2921-fba2-4cdf-a412-a31666a21164}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -111,9 +114,6 @@
     <ClCompile Include="try using.cpp">
       <Filter>소스 파일\06 tree\26 try</Filter>
     </ClCompile>
-    <ClCompile Include="5052_phone_number_list_example.cpp">
-      <Filter>소스 파일\06 tree\26 try</Filter>
-    </ClCompile>
     <ClCompile Include="kruskal_exacmple.cpp">
       <Filter>소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼</Filter>
     </ClCompile>
@@ -122,6 +122,18 @@
     </ClCompile>
     <ClCompile Include="ford_fulkerson_example_adjacent_matrix.cpp">
       <Filter>소스 파일\07 graph\32 network flow\ford-fulkerson algorithm 포드 풀커슨</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호_11375.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
+    </ClCompile>
+    <ClCompile Include="fly_10775.cpp">
+      <Filter>소스 파일\06 tree\25 Disjoint set</Filter>
+    </ClCompile>
+    <ClCompile Include="5052_phone.cpp">
+      <Filter>소스 파일\06 tree\26 try</Filter>
+    </ClCompile>
+    <ClCompile Include="9372.cpp">
+      <Filter>소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
