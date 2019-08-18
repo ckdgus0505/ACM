@@ -93,22 +93,30 @@
 > 1504 : [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
 
 * 8월 3주차 문제 (19.08.16)
-# RMQ
-https://www.acmicpc.net/problem/6515
 
-#Disjoint-Set
-https://www.acmicpc.net/problem/10775
-https://www.acmicpc.net/problem/10774
+> RMQ
 
-# 트라이
-https://www.acmicpc.net/problem/5052
-https://www.acmicpc.net/problem/9934
+1. <https://www.acmicpc.net/problem/6515> 
 
-# 최소 스패닝 트리
-https://www.acmicpc.net/problem/1922
-https://www.acmicpc.net/problem/1197
-https://www.acmicpc.net/problem/9372
 
-# 네트워크 유량
-https://www.acmicpc.net/problem/2188
-https://www.acmicpc.net/problem/1671
+> Disjoint-Set
+
+1. <https://www.acmicpc.net/problem/10775>
+2. <https://www.acmicpc.net/problem/10774>
+
+
+> 트라이
+
+1. <https://www.acmicpc.net/problem/5052>
+2. <https://www.acmicpc.net/problem/9934>
+
+> 최소 스패닝 트리
+
+1. <https://www.acmicpc.net/problem/1922>
+2. <https://www.acmicpc.net/problem/1197>
+3. <https://www.acmicpc.net/problem/9372>
+
+> 네트워크 유량
+
+1. <https://www.acmicpc.net/problem/2188>
+2. <https://www.acmicpc.net/problem/1671>
