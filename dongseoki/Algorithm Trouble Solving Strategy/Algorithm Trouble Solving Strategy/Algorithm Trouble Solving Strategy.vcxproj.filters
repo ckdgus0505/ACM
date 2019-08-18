@@ -135,5 +135,8 @@
     <ClCompile Include="9372.cpp">
       <Filter>소스 파일\07 graph\31 minimum spanning tree\kruskal 크루스칼</Filter>
     </ClCompile>
+    <ClCompile Include="1671.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
