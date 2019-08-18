@@ -96,7 +96,7 @@
 
 > RMQ
 
-1. <https://www.acmicpc.net/problem/6515> 
+1. <https://www.acmicpc.net/problem/2042> 
 
 
 > Disjoint-Set
