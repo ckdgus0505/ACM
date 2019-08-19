@@ -138,5 +138,17 @@
     <ClCompile Include="1671.cpp">
       <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
     </ClCompile>
+    <ClCompile Include="2188.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
+    </ClCompile>
+    <ClCompile Include="keep_reading_while_input_newline.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
+    </ClCompile>
+    <ClCompile Include="10774.cpp">
+      <Filter>소스 파일\07 graph\32 network flow\Bipartite matching 이분 매칭</Filter>
+    </ClCompile>
+    <ClCompile Include="9934.cpp">
+      <Filter>소스 파일\06 tree\26 try</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
