@@ -82,6 +82,9 @@
     <Filter Include="소스 파일\04 famous algorithm\14 number theory\14.2 prime number">
       <UniqueIdentifier>{0fca02fb-648e-4361-814f-c4be2d772031}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\04 famous algorithm\16 new 확률">
+      <UniqueIdentifier>{82770bb0-3f65-456b-ac7e-5eb419637cb7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -165,11 +168,20 @@
     <ClCompile Include="9934.cpp">
       <Filter>소스 파일\06 tree\26 try</Filter>
     </ClCompile>
-    <ClCompile Include="카이사르 암호.cpp">
-      <Filter>소스 파일\04 famous algorithm\14 number theory</Filter>
-    </ClCompile>
     <ClCompile Include="골드바흐의 추측_6588.cpp">
       <Filter>소스 파일\04 famous algorithm\14 number theory\14.2 prime number</Filter>
+    </ClCompile>
+    <ClCompile Include="카이사르 암호_5598.cpp">
+      <Filter>소스 파일\04 famous algorithm\14 number theory</Filter>
+    </ClCompile>
+    <ClCompile Include="1002.cpp">
+      <Filter>소스 파일\04 famous algorithm\15 Computational Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="dice_game_13250.cpp">
+      <Filter>소스 파일\04 famous algorithm\16 new 확률</Filter>
+    </ClCompile>
+    <ClCompile Include="making_square_1485.cpp">
+      <Filter>소스 파일\04 famous algorithm\15 Computational Geometry</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

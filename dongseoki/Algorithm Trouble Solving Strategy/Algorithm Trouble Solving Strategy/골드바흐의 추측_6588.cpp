@@ -36,15 +36,29 @@ bool* Eratos(int n)
 int main(void) {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
-	bool* PrimeArray = Eratos(100);
-	for (int i = 2; i < 100; i++) {
-		if (PrimeArray[i] == true) {
-			cout << i << "\n";
+	bool* PrimeArray = Eratos(1000000);
+	int num = 0;
+	while (1) {
+		cin >> num;
+		if (num == 0) {
+			break;
+		}
+		int flag = 0;
+		for (int i = 3; i < 1000000; i++) {
+			if (PrimeArray[i] == true && PrimeArray[num - i] == true) {
+				cout << num << " = " << i << " + " << num - i << "\n";
+				flag = 1;
+				break;
+			}
+				/*8 = 3 + 5
+				20 = 3 + 17
+				42 = 5 + 37*/
+		}
+
+		if (flag == 0) {
+			cout << "Goldbach's conjecture is wrong.\n";
 		}
 	}
 
-	while (true) {
-
-		break;
-	}
+	return 0;
 }
