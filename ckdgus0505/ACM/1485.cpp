@@ -46,7 +46,6 @@ int main(void) {
 				else cout << 0 << '\n';
 		}
 		else cout << 0 << '\n';
-
 	}
 }
 double sqdistance(pos a, pos b) {
