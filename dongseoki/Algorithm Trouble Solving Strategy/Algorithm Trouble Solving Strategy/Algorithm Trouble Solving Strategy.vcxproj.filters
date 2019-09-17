@@ -85,6 +85,24 @@
     <Filter Include="소스 파일\04 famous algorithm\16 new 확률">
       <UniqueIdentifier>{82770bb0-3f65-456b-ac7e-5eb419637cb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\20190831_실리콘벨리_코테">
+      <UniqueIdentifier>{49484f3d-0b16-46e7-91c7-c70b62f061e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\카카오 코테">
+      <UniqueIdentifier>{9d5dc5b1-2e9b-4cb5-9391-ee2a0f16f118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05 basic data structure">
+      <UniqueIdentifier>{a55162eb-a8b7-4173-ba17-7b2f96f2b4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05 basic data structure\18 선형 자료 구조">
+      <UniqueIdentifier>{5df5ec7f-299f-493b-b46f-6bb500c0acbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05 basic data structure\18 선형 자료 구조\18.2 동적배열">
+      <UniqueIdentifier>{198c4ba8-bf8f-42e2-bdef-a3f0bdc90b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05 basic data structure\연관 컨테이너">
+      <UniqueIdentifier>{8a5d4c5f-90c3-44da-a6d2-63335fb0ace3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -182,6 +200,30 @@
     </ClCompile>
     <ClCompile Include="making_square_1485.cpp">
       <Filter>소스 파일\04 famous algorithm\15 Computational Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="실리콘 프밍3.cpp">
+      <Filter>소스 파일\20190831_실리콘벨리_코테</Filter>
+    </ClCompile>
+    <ClCompile Include="실리콘 프밍1.cpp">
+      <Filter>소스 파일\20190831_실리콘벨리_코테</Filter>
+    </ClCompile>
+    <ClCompile Include="실리콘 프밍2.cpp">
+      <Filter>소스 파일\20190831_실리콘벨리_코테</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\카카오 코테</Filter>
+    </ClCompile>
+    <ClCompile Include="2_about_Test.cpp">
+      <Filter>소스 파일\카카오 코테</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_iterator_example.cpp">
+      <Filter>소스 파일\05 basic data structure\18 선형 자료 구조\18.2 동적배열</Filter>
+    </ClCompile>
+    <ClCompile Include="set_example.cpp">
+      <Filter>소스 파일\05 basic data structure\연관 컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="map_example.cpp">
+      <Filter>소스 파일\05 basic data structure\연관 컨테이너</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

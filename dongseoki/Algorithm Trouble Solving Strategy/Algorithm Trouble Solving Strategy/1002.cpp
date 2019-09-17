@@ -23,12 +23,13 @@ int find_ru(void) {
 	else {
 		double dispow = (pow(x1 - x2, 2) + pow(y_1 - y2, 2));
 		double r1plusr2pow = pow(r1+r2, 2);
-		if (dispow < r1plusr2pow)
-			return 2;
-		else if (dispow > r1plusr2pow)
-			return 0;
-		else
+		if(dispow == r1plusr2pow ||(dispow == pow(r1-r2,2)))
 			return 1;
+		else if (dispow < r1plusr2pow)
+			return 2;
+		else 
+			return 0;
+		
 	}
 }
 
