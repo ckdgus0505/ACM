@@ -120,3 +120,8 @@
 
 1. <https://www.acmicpc.net/problem/2188>
 2. <https://www.acmicpc.net/problem/1671>
+
+
+
+### 9월 3주차 문제 (19.09.21 까지)
+> [acm 문제](https://www.acmicpc.net/category/detail/1942)
