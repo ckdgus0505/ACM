@@ -109,6 +109,9 @@
     <Filter Include="소스 파일\acm\Asia Regional - Seoul 2018">
       <UniqueIdentifier>{e84bf6e4-4b45-404f-898e-412cf813425f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\acm\Seoul Nationalwide Internet Competition 2018 acm">
+      <UniqueIdentifier>{d51f1e3a-82a0-42ff-96ed-d28bb1b2d12c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -233,6 +236,12 @@
     </ClCompile>
     <ClCompile Include="16360.cpp">
       <Filter>소스 파일\acm\Asia Regional - Seoul 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="black_chain_16282.cpp">
+      <Filter>소스 파일\acm\Seoul Nationalwide Internet Competition 2018 acm</Filter>
+    </ClCompile>
+    <ClCompile Include="farm_16283.cpp">
+      <Filter>소스 파일\acm\Seoul Nationalwide Internet Competition 2018 acm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
