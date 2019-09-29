@@ -125,3 +125,7 @@
 
 ### 9월 3주차 문제 (19.09.21 까지)
 > [Seoul Nationalwide Internet Competition 2018 acm](https://www.acmicpc.net/category/detail/1935)
+
+
+### 9월 4주차 문제 (19.10.03 까지)
+> [aejeon Nationalwide Internet Competition 2017](https://www.acmicpc.net/category/detail/1758)
