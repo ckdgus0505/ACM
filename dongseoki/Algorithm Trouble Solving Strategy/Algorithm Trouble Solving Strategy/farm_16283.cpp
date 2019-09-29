@@ -11,7 +11,7 @@ int main(void) {
 	cin >> w;
 
 	if (a == b) {
-		if (n == 2 && w == 2) {
+		if (n == 2 && w == 2*a) {
 			cout << "1 1\n";
 			return 0;
 		}

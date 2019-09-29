@@ -112,6 +112,12 @@
     <Filter Include="소스 파일\acm\Seoul Nationalwide Internet Competition 2018 acm">
       <UniqueIdentifier>{d51f1e3a-82a0-42ff-96ed-d28bb1b2d12c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\nhn">
+      <UniqueIdentifier>{381ce97a-25b1-46b0-a47b-d60de24c554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\acm\Daejeon Nationalwide Internet Competition 2017">
+      <UniqueIdentifier>{e1a8b44c-7f6e-4c72-91d0-4b88dbd5456b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -242,6 +248,24 @@
     </ClCompile>
     <ClCompile Include="farm_16283.cpp">
       <Filter>소스 파일\acm\Seoul Nationalwide Internet Competition 2018 acm</Filter>
+    </ClCompile>
+    <ClCompile Include="electric_sign_test.cpp">
+      <Filter>소스 파일\nhn</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_multiply_2740.cpp">
+      <Filter>소스 파일\nhn</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_ex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_max_14753.cpp">
+      <Filter>소스 파일\acm\Daejeon Nationalwide Internet Competition 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza_Boxes_14754.cpp">
+      <Filter>소스 파일\acm\Daejeon Nationalwide Internet Competition 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="no1_insect_card.cpp">
+      <Filter>소스 파일\nhn</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
