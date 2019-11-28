@@ -118,6 +118,21 @@
     <Filter Include="소스 파일\acm\Daejeon Nationalwide Internet Competition 2017">
       <UniqueIdentifier>{e1a8b44c-7f6e-4c72-91d0-4b88dbd5456b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\mingeongha">
+      <UniqueIdentifier>{87729b86-f3ed-4996-b0f8-d559042e9319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\acm\Asia Regional - Seoul 2019">
+      <UniqueIdentifier>{f6cfff5a-51c2-4c33-99fd-694ce7c2864f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mingeongha\04graph">
+      <UniqueIdentifier>{1f485b76-27ce-4271-b2ba-cd0cc3ba9a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\카카오 겨울 인턴쉽 코테">
+      <UniqueIdentifier>{4a66b402-7683-4756-ae18-32104a533ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mingeongha\05greedy">
+      <UniqueIdentifier>{af2de6fb-db24-412a-a104-06f79782b126}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -266,6 +281,84 @@
     </ClCompile>
     <ClCompile Include="no1_insect_card.cpp">
       <Filter>소스 파일\nhn</Filter>
+    </ClCompile>
+    <ClCompile Include="2206_벽부수고이동하기.cpp">
+      <Filter>소스 파일\07 graph</Filter>
+    </ClCompile>
+    <ClCompile Include="11728_array_merge.cpp">
+      <Filter>소스 파일\mingeongha</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>소스 파일\acm\Asia Regional - Seoul 2019</Filter>
+    </ClCompile>
+    <ClCompile Include="L.cpp">
+      <Filter>소스 파일\acm\Asia Regional - Seoul 2019</Filter>
+    </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>소스 파일\mingeongha</Filter>
+    </ClCompile>
+    <ClCompile Include="2447.cpp">
+      <Filter>소스 파일\mingeongha</Filter>
+    </ClCompile>
+    <ClCompile Include="11724_연결 요소의 개수.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="2644_촌수계산.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1743_음식물피하기.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonachi.cpp">
+      <Filter>소스 파일\mingeongha</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs_1260.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1260_retry.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1012_유기농배추.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1316.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="인형뽑기 구현.cpp">
+      <Filter>소스 파일\카카오 겨울 인턴쉽 코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1916_ 다익스트라.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="2178 미로탐색.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="다익스트라 다른 사람 코드 경로 출력을 포함.cpp">
+      <Filter>소스 파일\mingeongha\04graph</Filter>
+    </ClCompile>
+    <ClCompile Include="address_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_prim_1922.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="mcst_kruscal_9372.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ex14_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy_11047.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="remain_money_5585.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="11399_atm.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="spanning_tree_1197_kruscal.cpp">
+      <Filter>소스 파일\mingeongha\05greedy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

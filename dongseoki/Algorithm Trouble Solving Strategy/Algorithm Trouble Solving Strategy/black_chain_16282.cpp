@@ -19,5 +19,10 @@ long long int blackchain(long long int n) {
 int main(void) {
 	long long int n;
 	cin >> n;
-	cout << blackchain(n);
+	
+	if (n % 2 == 0) {
+		cout << blackchain(n) + 1;
+	}
+	else
+		cout << blackchain(n);
 }
