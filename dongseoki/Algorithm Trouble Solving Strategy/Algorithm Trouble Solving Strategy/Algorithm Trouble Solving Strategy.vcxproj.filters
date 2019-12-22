@@ -133,6 +133,9 @@
     <Filter Include="소스 파일\mingeongha\05greedy">
       <UniqueIdentifier>{af2de6fb-db24-412a-a104-06f79782b126}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\mingeongha\06dynamic">
+      <UniqueIdentifier>{aa014e9d-5674-4743-9de6-b1c260dec203}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -359,6 +362,24 @@
     </ClCompile>
     <ClCompile Include="spanning_tree_1197_kruscal.cpp">
       <Filter>소스 파일\mingeongha\05greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="for문과 while 문 차이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기_1463.cpp">
+      <Filter>소스 파일\mingeongha\06dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="2n타일링_11726.cpp">
+      <Filter>소스 파일\mingeongha\06dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="2n타일링_11726_new.cpp">
+      <Filter>소스 파일\mingeongha\06dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="123더하기_9095.cpp">
+      <Filter>소스 파일\mingeongha\06dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="카드구매하기_11052.cpp">
+      <Filter>소스 파일\mingeongha\06dynamic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
