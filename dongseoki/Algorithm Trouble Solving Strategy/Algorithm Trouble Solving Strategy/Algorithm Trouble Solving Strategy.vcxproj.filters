@@ -136,6 +136,12 @@
     <Filter Include="소스 파일\mingeongha\06dynamic">
       <UniqueIdentifier>{aa014e9d-5674-4743-9de6-b1c260dec203}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{5881fa16-2519-408e-9ec5-2cb470524797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\level1">
+      <UniqueIdentifier>{8a30819e-5783-41a2-aa5e-fc8686f24404}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -244,9 +250,6 @@
       <Filter>소스 파일\20190831_실리콘벨리_코테</Filter>
     </ClCompile>
     <ClCompile Include="소스.cpp">
-      <Filter>소스 파일\카카오 코테</Filter>
-    </ClCompile>
-    <ClCompile Include="2_about_Test.cpp">
       <Filter>소스 파일\카카오 코테</Filter>
     </ClCompile>
     <ClCompile Include="vector_iterator_example.cpp">
@@ -380,6 +383,15 @@
     </ClCompile>
     <ClCompile Include="카드구매하기_11052.cpp">
       <Filter>소스 파일\mingeongha\06dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 내림차순.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열을 정수로 바꾸기.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
