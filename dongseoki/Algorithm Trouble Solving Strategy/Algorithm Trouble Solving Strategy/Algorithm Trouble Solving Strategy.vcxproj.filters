@@ -142,6 +142,9 @@
     <Filter Include="소스 파일\프로그래머스\level1">
       <UniqueIdentifier>{8a30819e-5783-41a2-aa5e-fc8686f24404}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\level2">
+      <UniqueIdentifier>{aebd8dd7-5fc6-49d8-bd62-4b9199961426}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -392,6 +395,57 @@
     </ClCompile>
     <ClCompile Include="문자열을 정수로 바꾸기.cpp">
       <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="이상한 문자 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="1차 비밀지도.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="실패율.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="1차 다트게임.cpp">
+      <Filter>소스 파일\프로그래머스\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="탑.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호_목록.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="h_index.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="위장.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="example.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[2020카카오공채] 괄호 변환.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="iter_test.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게_heap.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="가장큰수.cpp">
+      <Filter>소스 파일\프로그래머스\level2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
