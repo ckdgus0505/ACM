@@ -145,6 +145,12 @@
     <Filter Include="소스 파일\프로그래머스\level2">
       <UniqueIdentifier>{aebd8dd7-5fc6-49d8-bd62-4b9199961426}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\level2 page2">
+      <UniqueIdentifier>{6d342ad2-fe50-4dc9-ad60-cfa5f4bb0ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\level2 page2\pg3">
+      <UniqueIdentifier>{68613933-16a6-4c82-b4fb-2779be0e450b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -446,6 +452,30 @@
     </ClCompile>
     <ClCompile Include="가장큰수.cpp">
       <Filter>소스 파일\프로그래머스\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치수.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2</Filter>
+    </ClCompile>
+    <ClCompile Include="단체사진 찍기.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 큰 숫자.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2</Filter>
+    </ClCompile>
+    <ClCompile Include="라면공장.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2</Filter>
+    </ClCompile>
+    <ClCompile Include="오픈채팅방.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2\pg3</Filter>
+    </ClCompile>
+    <ClCompile Include="stringstream_example.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2\pg3</Filter>
+    </ClCompile>
+    <ClCompile Include="뉴스 클러스터링.cpp">
+      <Filter>소스 파일\프로그래머스\level2 page2\pg3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
