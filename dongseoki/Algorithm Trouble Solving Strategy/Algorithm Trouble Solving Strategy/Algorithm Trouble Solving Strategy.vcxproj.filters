@@ -157,6 +157,9 @@
     <Filter Include="소스 파일\프로그래머스\level3\pg1">
       <UniqueIdentifier>{b2cc156f-081a-4329-b947-abfb4e3d29de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\level3\pg2">
+      <UniqueIdentifier>{0a185fd8-c23a-41f8-9130-afd5b7469c97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -509,6 +512,12 @@
     </ClCompile>
     <ClCompile Include="카카오 공채 추석 트래픽.cpp">
       <Filter>소스 파일\프로그래머스\level3\pg1</Filter>
+    </ClCompile>
+    <ClCompile Include="n개 선택.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg1</Filter>
+    </ClCompile>
+    <ClCompile Include="기둥과 보 설치.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
