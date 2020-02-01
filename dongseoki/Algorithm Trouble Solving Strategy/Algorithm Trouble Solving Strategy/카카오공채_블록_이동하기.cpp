@@ -78,7 +78,7 @@ void move_news_robot(Robot rb, int i, int n, vector<vector<vector<int>>>& d_map,
 }
 void print_d_map(int n, int mode, vector<vector<vector<int>>>& d_map) {
     cout << "mode :" << mode << "\n";
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <=n; i++) {
         for (int j = 0; j < n; j++) {
             cout << d_map[i][j][mode] << " ";
         }
@@ -132,8 +132,8 @@ int solution(vector<vector<int>> board) {
 
     }
 
-    //for (int i = 0; i < 4; i++)
-    //    print_d_map(n, i, d_map);
+    for (int i = 0; i < 4; i++)
+        print_d_map(n, i, d_map);
 
     answer = 200000000; // 2¾ï.
     for (int i = 0; i < 4; i++) {

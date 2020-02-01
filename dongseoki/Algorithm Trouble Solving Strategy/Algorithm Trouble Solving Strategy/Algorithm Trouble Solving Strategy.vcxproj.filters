@@ -518,8 +518,15 @@
     </ClCompile>
     <ClCompile Include="기둥과 보 설치.cpp">
       <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오 공채 추석 트래픽.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="카카오공채_블록_이동하기.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+      <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오 공채 블록이동하기 재도전.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
