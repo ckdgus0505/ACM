@@ -480,5 +480,8 @@
     <ClCompile Include="자물쇠와 열쇠.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="카카오공채_블록_이동하기.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
