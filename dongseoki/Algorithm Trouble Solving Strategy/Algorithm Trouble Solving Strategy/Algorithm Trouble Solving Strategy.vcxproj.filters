@@ -528,5 +528,11 @@
     <ClCompile Include="카카오 공채 블록이동하기 재도전.cpp">
       <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
     </ClCompile>
+    <ClCompile Include="tuple_exeample.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
+    </ClCompile>
+    <ClCompile Include="외벽점검.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
