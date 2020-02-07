@@ -534,5 +534,8 @@
     <ClCompile Include="외벽점검.cpp">
       <Filter>소스 파일\프로그래머스\level3\pg2</Filter>
     </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\프로그래머스\level3\pg1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
