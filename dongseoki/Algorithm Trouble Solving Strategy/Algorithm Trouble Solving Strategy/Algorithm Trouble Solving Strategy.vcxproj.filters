@@ -160,6 +160,9 @@
     <Filter Include="소스 파일\프로그래머스\level3\pg2">
       <UniqueIdentifier>{0a185fd8-c23a-41f8-9130-afd5b7469c97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\삼성역량">
+      <UniqueIdentifier>{0758b44f-18ac-4256-ba48-dc8b480041d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -537,5 +540,19 @@
     <ClCompile Include="다리를 지나는 트럭.cpp">
       <Filter>소스 파일\프로그래머스\level3\pg1</Filter>
     </ClCompile>
+    <ClCompile Include="소문자로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="게리맨더링2.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
+    <ClCompile Include="새로운 게임2.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Uart.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
