@@ -10,8 +10,7 @@ int main(void) {
 	cin >> a >> b >> n >> w;
 
 	if (a == b) { // 양과 염소의 수가 같을 경우
-		if (a + b == w && a == w / (double)n)
-			cout << 1 << ' ' << 1 << '\n'; // 
+		if (w == 2*a) cout << 1 << ' ' << 1 << '\n'; // 
 		else cout << -1 << '\n';
 	}
 	else { // 양과 염소의 수가 다를 경우

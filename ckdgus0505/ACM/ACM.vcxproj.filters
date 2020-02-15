@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\seoul regional 2018">
       <UniqueIdentifier>{a5b61d4a-3411-4705-93d0-19a5d335a16b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{234a0adb-97f4-430c-820a-00abcbff5b42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1463.cpp">
@@ -215,6 +218,15 @@
     </ClCompile>
     <ClCompile Include="16288.cpp">
       <Filter>소스 파일\seoul regional 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="2206.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12925.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="42892.cpp">
+      <Filter>소스 파일\programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
