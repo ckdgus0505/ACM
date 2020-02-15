@@ -549,6 +549,9 @@
     <ClCompile Include="새로운 게임2.cpp">
       <Filter>소스 파일\삼성역량</Filter>
     </ClCompile>
+    <ClCompile Include="쿠팡 문제1cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
