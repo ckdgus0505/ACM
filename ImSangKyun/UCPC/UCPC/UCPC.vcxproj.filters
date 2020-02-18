@@ -243,5 +243,14 @@
     <ClCompile Include="피보나치(행렬).cpp">
       <Filter>소스 파일\연습</Filter>
     </ClCompile>
+    <ClCompile Include="13460_구슬탈출2_보드결과.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="13460_구슬탈출2_BFS.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="14502_연구소.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
