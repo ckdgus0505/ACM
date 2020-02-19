@@ -13,7 +13,8 @@ int  findMinDifference(int x, int y, int d1, int d2, const int & N, const vector
 	// index 0 사용 안함.
 	for (int r = 1; r <= N; r++) {
 		for (int c = 1; c <= N; c++) {
-			if ((x - y) <= (r - c) && (r - c) <= (x - y + 2 * d1) && (x + y) <= (r + c) && (r + c) <= (x + y + 2 * d2)) {
+			if ((x - y) <= (r - c) && (r - c) <= (x - y + 2 * d1) 
+				&& (x + y) <= (r + c) && (r + c) <= (x + y + 2 * d2)) {
 				
 				sectpo[5] += emap[r][c];
 				smap[r][c] = 5;
