@@ -22,6 +22,51 @@
     <Filter Include="소스 파일\연습">
       <UniqueIdentifier>{1cdc2354-96cb-426a-9873-bbbf0fe53ebd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\UCPC2016">
+      <UniqueIdentifier>{40a4225a-7b1d-4353-9a08-b3a3f53f7d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UCPC2019 예선">
+      <UniqueIdentifier>{9bce7ad0-ba8d-4336-8345-64814a179d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dijkstra">
+      <UniqueIdentifier>{40ffc34c-a511-45cf-a524-a9fcb0463f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Disjoint-Set">
+      <UniqueIdentifier>{af55abb9-4135-400b-a768-8a201d7809dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\네트워크유량">
+      <UniqueIdentifier>{2136fef6-bfec-4bfe-aec8-7467c1718649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\구간트리">
+      <UniqueIdentifier>{a815faac-0839-4866-8c7f-7f1b9f6b4a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{44c707c5-4460-49dc-834f-bddec0de0997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\트라이">
+      <UniqueIdentifier>{c895cab0-8e3e-4a22-9abf-3804cca69f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스패닝트리">
+      <UniqueIdentifier>{ba4b7e31-4c29-4c69-894e-cdcd00d79b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ACM-ICPC Online 2018">
+      <UniqueIdentifier>{4f8de181-e21d-4b08-8bdb-30d7467264d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Assignment">
+      <UniqueIdentifier>{681dc131-3b94-4f6d-9b0e-0ccb43383996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph">
+      <UniqueIdentifier>{1eb00f59-a7b4-48fb-a13f-f02eda1511e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hash">
+      <UniqueIdentifier>{483cec62-6151-49ed-9d7a-524872ced01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Greedy Algorithm">
+      <UniqueIdentifier>{2c7cd826-3a6b-41b2-b599-5e5eae0be4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ACM-ICPC Online 2017">
+      <UniqueIdentifier>{693146c2-4b8f-4839-87ef-a6a844e86fe0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15650_1.cpp">
@@ -74,6 +119,138 @@
     </ClCompile>
     <ClCompile Include="문자열 단순검색.cpp">
       <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="13159_배열.cpp">
+      <Filter>소스 파일\UCPC2016</Filter>
+    </ClCompile>
+    <ClCompile Include="B_카드합체놀이.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="A_수학은체육과목입니다.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="G_UCPC는 무엇의 약자일까.cpp">
+      <Filter>소스 파일\UCPC2018 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="구간트리 연습.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="6515_Frequent values%28구간트리%29.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="2667_단지번호붙이기.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="E번_퍼센트cpp.cpp">
+      <Filter>소스 파일\UCPC2019 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="C번_대회.cpp">
+      <Filter>소스 파일\UCPC2019 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="J.cpp">
+      <Filter>소스 파일\UCPC2019 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_최단경로.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="1916_최소비용구하기.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="1916_최소비용구하기2.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="1504_특정한 최단 경로.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="1671_상어의 저녁식사.cpp">
+      <Filter>소스 파일\네트워크유량</Filter>
+    </ClCompile>
+    <ClCompile Include="2579_계단오르기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2042_구간 합 구하기.cpp">
+      <Filter>소스 파일\구간트리</Filter>
+    </ClCompile>
+    <ClCompile Include="10774번_저지.cpp">
+      <Filter>소스 파일\Disjoint-Set</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 매칭 연습.cpp">
+      <Filter>소스 파일\네트워크유량</Filter>
+    </ClCompile>
+    <ClCompile Include="9934_완전이진트리.cpp">
+      <Filter>소스 파일\트라이</Filter>
+    </ClCompile>
+    <ClCompile Include="스패닝트리 연습%28Kruscal%29.cpp">
+      <Filter>소스 파일\스패닝트리</Filter>
+    </ClCompile>
+    <ClCompile Include="스패닝트리 연습(Prim).cpp">
+      <Filter>소스 파일\스패닝트리</Filter>
+    </ClCompile>
+    <ClCompile Include="6588_골드바흐의 추측%28에라토스테네스의 체%29.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1002_터렛.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="5598_카이사르 암호.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="1485_정사각형.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="연습장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="자료구조 Heap 구현.cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Black Chain.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="B_Farm.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Lucid Strings.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="F_Parcel.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="G_Passport Control.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2018</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting Algorithm.cpp">
+      <Filter>소스 파일\Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Closest Pair.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="H_MultiMax.cpp">
+      <Filter>소스 파일\ACM-ICPC Online 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="9095_1,2,3더하기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="11404_플로이드_미완.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="5052_전화번호 목록.cpp">
+      <Filter>소스 파일\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="1197_최소스패닝트리.cpp">
+      <Filter>소스 파일\스패닝트리</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치(행렬).cpp">
+      <Filter>소스 파일\연습</Filter>
+    </ClCompile>
+    <ClCompile Include="13460_구슬탈출2_보드결과.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="13460_구슬탈출2_BFS.cpp">
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="14502_연구소.cpp">
+      <Filter>소스 파일\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
