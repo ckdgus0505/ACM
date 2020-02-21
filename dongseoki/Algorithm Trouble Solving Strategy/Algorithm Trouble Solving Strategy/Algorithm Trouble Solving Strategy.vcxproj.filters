@@ -555,6 +555,9 @@
     <ClCompile Include="원판돌리기.cpp">
       <Filter>소스 파일\삼성역량</Filter>
     </ClCompile>
+    <ClCompile Include="주사위 윷놀이 딴사람.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
