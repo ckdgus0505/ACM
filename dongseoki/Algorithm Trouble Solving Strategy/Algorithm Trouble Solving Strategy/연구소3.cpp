@@ -5,13 +5,9 @@
 #include <stdio.h>
 #define F(p,q,r) for(int p=q;p<r;p++)
 using namespace std;
-
-
 void print_map(vector<vector<int>> p_map);
-
 int N;
 int M;
-
 vector<vector<int>> r_map(52, vector<int>(52, 1)); // research map. 연구소맵
 	// 맵은 
 	//111111111
@@ -115,15 +111,6 @@ int SpreadVirus(vector<pair<int, int>>& v_pos, vector<int> & seq) {
 	}
 
 	int allvirustime = is_it_spreaded_all_plus_virustime(t_map, v_pos, seq);
-	//여기에 함수 필수.
-	// 바이러스가 모든 벽을 찾았나 확인하는 함수.
-
-	//cout << "R_map\n";
-	//print_map(r_map);
-
-	//cout << "T_ map\n";
-	//print_map(t_map);
-
 
 	return allvirustime;
 }
@@ -185,24 +172,11 @@ int solution() {
 		return answer;
 }
 int main(void) {
-
-	
-
-	//vector<int> v1 = { 1,2,3 };
-	//vector<int> v2 = v1;
-	//v1[0] = 99;
-	//cout << v1[0] << "\n";
-	//cout << v2[0] << "\n";
-	//// 값의 복사를 확인하는 코드.
-
-	M = 3;
-	vector<int> v_pos{ 1,2,3,4,5 };
-	vector<bool> visited(5, false);
-	virus_pick(0, -1, v_pos, visited);
-
-	//cin >> N;
-	//cin >> M;
-	//cout << solution();
-	
-
+	//M = 3;
+	//vector<int> v_pos{ 1,2,3,4,5 };
+	//vector<bool> visited(5, false);
+	//virus_pick(0, -1, v_pos, visited);
+	cin >> N;
+	cin >> M;
+	cout << solution();
 }
