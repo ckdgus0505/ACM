@@ -163,6 +163,9 @@
     <Filter Include="소스 파일\삼성역량">
       <UniqueIdentifier>{0758b44f-18ac-4256-ba48-dc8b480041d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT">
+      <UniqueIdentifier>{06736261-40b3-4cf2-a3ee-510d1487b958}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -560,6 +563,18 @@
     </ClCompile>
     <ClCompile Include="주사위 윷놀이.cpp">
       <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
+    <ClCompile Include="time_example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연구소3.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
+    <ClCompile Include="후보키.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="erase_test.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
