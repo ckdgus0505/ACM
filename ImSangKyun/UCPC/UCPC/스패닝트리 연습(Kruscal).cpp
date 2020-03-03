@@ -10,7 +10,7 @@ struct DisjointSet {
 			parent[i] = i;
 	}
 	int find(int u) {
-		return parent[u] = (parent[u] == u) ? u : find(u);
+		return parent[u] = (parent[u] == u) ? u : find(parent[u]);
 	}
 	void merge(int u, int v) {
 		int u = find(u), v = find(v);

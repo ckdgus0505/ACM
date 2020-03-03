@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\ACM-ICPC Online 2017">
       <UniqueIdentifier>{693146c2-4b8f-4839-87ef-a6a844e86fe0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\삼성SW역량테스트">
+      <UniqueIdentifier>{fb0cf12a-1e15-460e-9881-924bf1ebbc7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15650_1.cpp">
@@ -251,6 +254,12 @@
     </ClCompile>
     <ClCompile Include="14502_연구소.cpp">
       <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="12100_2048(easy).cpp">
+      <Filter>소스 파일\삼성SW역량테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="2887_행성터널.cpp">
+      <Filter>소스 파일\스패닝트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
