@@ -576,6 +576,9 @@
     <ClCompile Include="erase_test.cpp">
       <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="길 찾기 게임.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
