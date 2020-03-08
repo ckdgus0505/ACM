@@ -97,9 +97,31 @@ vector<int> solution(vector<string> words, vector<string> queries) {
     return answer;
 }
 
+vector<int> solution_binarysearch(vector<string> words, vector<string> queries) {
+
+
+    sort(queries.begin(), queries.end());
+    sort(words.begin(), words.end());
+    cout << *lower_bound(words.begin(), words.end(), "fro??");
+    vector<int> answer;
+    return answer;
+}
 int main(void) {
-    vector<string> words = { "frodo", "front", "frost", "frozen", "frame", "kakao" };
+    //vector<string> words = { "frodo", "front", "frost", "frozen", "frame", "kakao" };
+    //vector<string> queries = { "fro??", "????o", "fr???", "fro???", "pro?" };
+    // original
+    vector<string> tests = { "yz", "y{", "za" };
+    sort(tests.begin(), tests.end());
+
+    vector<string> words = { "frodo","frot", "fro", "froa","front", "frost", "frozen", "frame", "kakao" };
     vector<string> queries = { "fro??", "????o", "fr???", "fro???", "pro?" };
-    vector<int> answer = solution(words, queries);
+    //vector<int> answer = solution(words, queries);
+    //vector<int> answer = solution_binarysearch(words, queries);
+    // 새로운 sorting 방식을 적용해야하는 문제가 생겼다. 자릿수가 꽤 중요한 요소이기 때문이다.
+    // ex) fab fa fc     fa?
+    // fa fab fc
+    // 길이 별로 했다면 금방 찾을 수도 있겠지.
+    // ex) fa fc fab.
+    // 
     cout << "end";
 }
