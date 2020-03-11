@@ -585,6 +585,12 @@
     <ClCompile Include="가사검색.cpp">
       <Filter>소스 파일\카카오 코테\2020</Filter>
     </ClCompile>
+    <ClCompile Include="블록 게임.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="무지의 먹방 라이즈.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
