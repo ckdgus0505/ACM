@@ -113,7 +113,7 @@ bool try_remove_block(int idx, vector<Block>& block_list,
 }
 
 int solution(vector<vector<int>> board) {
-	// 1. 블록을 등록한다.
+	// 1. 블록을 블록 리스트에 등록한다.
 	// 2.모든 블록 리스트를 순회하며 위에가 비어있는 것을 찾는다.
 	// 2-1 위에가 비어 있다면 채우고, 해당 블록을 처리된거로 처리, 
 	//2-2 모든 블록 리스트 순회시, 채운것이 하나도 없다면, 반복을 탈출하고
