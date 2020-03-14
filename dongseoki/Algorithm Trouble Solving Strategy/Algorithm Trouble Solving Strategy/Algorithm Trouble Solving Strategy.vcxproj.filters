@@ -169,6 +169,9 @@
     <Filter Include="소스 파일\카카오 코테\2020">
       <UniqueIdentifier>{65ab5ccf-d24e-4109-9836-214ff7d54bdb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\sw마에">
+      <UniqueIdentifier>{e054641f-2281-4404-a51b-1a1a8542954e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -590,6 +593,15 @@
     </ClCompile>
     <ClCompile Include="무지의 먹방 라이즈.cpp">
       <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="문제1cpp.cpp">
+      <Filter>소스 파일\sw마에</Filter>
+    </ClCompile>
+    <ClCompile Include="색조.cpp">
+      <Filter>소스 파일\sw마에</Filter>
+    </ClCompile>
+    <ClCompile Include="라스트.cpp">
+      <Filter>소스 파일\sw마에</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
