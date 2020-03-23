@@ -603,6 +603,18 @@
     <ClCompile Include="라스트.cpp">
       <Filter>소스 파일\sw마에</Filter>
     </ClCompile>
+    <ClCompile Include="매칭 점수.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="정규표현식 공부.cpp">
+      <Filter>소스 파일\카카오 코테\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="낚시왕.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
+    <ClCompile Include="옳은 낚시왕.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
