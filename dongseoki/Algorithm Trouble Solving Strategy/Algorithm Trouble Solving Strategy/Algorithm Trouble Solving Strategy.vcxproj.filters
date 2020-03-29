@@ -615,6 +615,9 @@
     <ClCompile Include="옳은 낚시왕.cpp">
       <Filter>소스 파일\삼성역량</Filter>
     </ClCompile>
+    <ClCompile Include="색종이 붙이기.cpp">
+      <Filter>소스 파일\삼성역량</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
