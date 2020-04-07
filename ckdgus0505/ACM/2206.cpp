@@ -1,60 +1,60 @@
-#include <iostream>
-#include <vector>
-#include <cstring>
+#include <cstdio>
+#include <queue>
 using namespace std;
-int min(int a, int b) { return a < b ? a : b; }
-int N, M;
-int Min = 987654321;
-vector<vector<int>> maps;
-int new_x[4] = {1,0,-1,0};
-int new_y[4] = {0,1,0,-1};
-int visited[1000][1000];
-void dfs(int y, int x, int cnt);
 
+int map[1000][1000];
+bool visited[1000][1000][2]; // 마지막 2는 벽 뚫은 여부
+int d_x[4] = {0, 0, 1,-1};
+int d_y[4] = {1,-1, 0, 0};
+int N; int M;
+
+void Input();
+int BFS();
 int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(nullptr);
 
-	cin >> N >> M;
-
-	maps.assign(N, vector<int>(M, 0));
-
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < M; j++) {
-			scanf("%1d", &maps[i][j]);
-		}
-	}
-	
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < M; j++) {
-			if (maps[i][j] == 1) {
-				maps[i][j] = 0;
-				memset(visited, 0, sizeof(visited));
-				dfs(0, 0, 0);
-				maps[i][j] = 1;
-			}
-		}
-	}
-	if (Min != 987654321)
-		cout << Min + 1 << '\n';
-	else cout << -1 << '\n';
+	Input();
+	int ans = BFS();
+	printf("%d\n", ans);
 }
 
-void dfs(int y, int x, int cnt) {
-	if (y == N-1 && x == M-1) {
-		Min = min(Min, cnt);
-		return ;
+void Input() {
+	scanf("%d %d", &N, &M);
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < M; j++) {
+			scanf("%1d", &map[i][j]);
+		}
 	}
+}
 
-	for (int i = 0; i < 4; i++)
-	{
-		if ((y + new_y[i] >= 0 && y + new_y[i] < N) && (x + new_x[i] >= 0 && x + new_x[i] < M)) {
-			if (maps[y + new_y[i]] [x + new_x[i]] == 0 && visited[y + new_y[i]][x+new_x[i]] == 0)
-			{
-				visited[y][x] = 1;
-				dfs(y+new_y[i],x+new_x[i],cnt+1);
-				visited[y][x] = 0;
+int BFS() {
+	queue<pair<pair<int, int>, pair<int, int>>> Q; // 첫 pair은 r,c 둘째 pair은 count, 벽
+	Q.push(make_pair(make_pair(0, 0), make_pair(1, 0)));
+	visited[0][0][0] = true;
+
+	while (!Q.empty()) {
+		int x = Q.front().first.first;
+		int y = Q.front().first.second;
+		int cnt = Q.front().second.first;
+		int wallcnt = Q.front().second.second;
+		Q.pop();
+
+		if (x == N - 1 && y == M - 1) return cnt;
+
+		for (int i = 0; i < 4; i++) {
+			int new_x = x + d_x[i];
+			int new_y = y + d_y[i];
+
+			if (new_x >= 0 && new_y >= 0 && new_x < N && new_y < M) {
+				if (map[new_x][new_y] == 1 && wallcnt == 0) {
+					visited[new_x][new_y][wallcnt + 1] = true;
+					Q.push(make_pair(make_pair(new_x, new_y), make_pair(cnt + 1, wallcnt + 1)));
+				}
+				else if (map[new_x][new_y] == 0 && visited[new_x][new_y][wallcnt] == false) {
+					visited[new_x][new_y][wallcnt] = true;
+					Q.push(make_pair(make_pair(new_x, new_y), make_pair(cnt + 1, wallcnt)));
+				}
 			}
 		}
 	}
+	return -1;
 }
