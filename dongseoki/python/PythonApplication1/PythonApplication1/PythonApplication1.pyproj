@@ -21,8 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1.py">
+    <None Include="PythonApplication1.py">
       <Publish>False</Publish>
+    </None>
+    <Compile Include="[1차]캐시.py">
+      <SubType>Code</SubType>
     </Compile>
     <Compile Include="남의거.py">
       <SubType>Code</SubType>
