@@ -24,6 +24,9 @@
     <None Include="PythonApplication1.py">
       <Publish>False</Publish>
     </None>
+    <Compile Include="n진수게임.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="[1차]캐시.py">
       <SubType>Code</SubType>
     </Compile>
