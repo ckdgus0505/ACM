@@ -3,79 +3,83 @@
 #include <stack>
 using namespace std;
 
-stack<int> st;
+stack<char> st;
+stack<int> val;
 string str;
+int flag;
+int idx2;
+int idx3;
+
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
 
 	cin >> str;
 
-	int index = 0;
+	for (int idx = 0; idx < str.length(); idx++) {
+		if (str[idx] == '(') {
+			st.push('(');
+			idx2++;
+		}
+		else if (str[idx] == '[') {
+			st.push('[');
+			idx3++;
+		}
+		else if (str[idx] == ')') {
+			idx2--;
+			if (idx2 > 0) {
+				int tmp;
+				if (st.top() == 'V') tmp = 0;
+				else tmp = 1;
 
-
-	// (은 -10 ( 은 -11 로 정의함
-	// [은 -20 ] 은 -21 로 정의함
-	for (index = 0; index < str.length(); index++) {
-
-		if (str[index] == '(') st.push(-10);
-		else if (str[index] == '[') st.push(-20);
-		else {
-
-
-
-			if (str[index] == ')') {
-				if (st.top() > 1) {
-					int tmp = 2;
-					tmp *= st.top();
+				while (st.top() == 'V') {
+					tmp += val.top();
 					st.pop();
-					st.pop();
-
-					if (st.top() > 1) {
-						tmp += st.top();
-						st.pop();
-					}
-					st.push(tmp);
+					val.pop();
 				}
-
-				if (st.top() == -10) {
-					int tmp = 2;
-					st.pop();
-					if (st.top() > 1) {
-						tmp += st.top();
-						st.pop();
-					}
-					st.push(tmp);
-				}
+				if (st.top() != '(') flag = -1;
+				tmp *= 2;
+				st.pop();
+				val.push(tmp);
+				st.push('V');
 			}
-
-			else if (str[index] == ']') {
-				if (st.top() > 1) {
-					int tmp = 3;
-					tmp *= st.top();
+			else flag = -1;
+		}
+		else if (str[idx] == ']') {
+			idx3--;
+			if (idx3 > 0) {
+				int tmp;
+				if (st.top() == 'V') tmp = 0;
+				else tmp = 1;
+				while (st.top() == 'V') {
+					tmp += val.top();
 					st.pop();
-					st.pop();
-
-					if (st.top() > 1) {
-						tmp += st.top();
-						st.pop();
-					}
-					st.push(tmp);
+					val.pop();
 				}
-
-				if (st.top() == -20) {
-					int tmp = 3;
-					st.pop();
-					if (st.top() > 1) {
-						tmp += st.top();
-						st.pop();
-					}
-					st.push(tmp);
-				}
+				if (st.top() != '[') flag = -1;
+				tmp *= 3;
+				st.pop();
+				val.push(tmp);
+				st.push('V');
 			}
+		}
+		else flag = -1;
+	}
 
+	int ans = 0;
+
+	if (val.size() == st.size()) {
+		while (!val.empty()) {
+			if (st.top() != 'V') flag = -1;
+			ans += val.top();
+			val.pop();
 		}
 	}
 
-	cout << st.top() << endl;
+	if (flag == -1) {
+		ans = 0;
+	}
+
+	cout << ans << "\n";
+
 }
