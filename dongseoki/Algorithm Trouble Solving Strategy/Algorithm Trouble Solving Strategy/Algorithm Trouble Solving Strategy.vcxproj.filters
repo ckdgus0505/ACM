@@ -621,6 +621,15 @@
     <ClCompile Include="index_out_of_range.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="문제1귤박스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="채널링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="최고의 팀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">
