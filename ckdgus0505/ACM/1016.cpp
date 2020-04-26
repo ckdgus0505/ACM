@@ -17,7 +17,7 @@ int main(void) {
 	// 제곱ㄴㄴ수를 찾는다. // square_nn의 0번째 배열을 mini값으로 가정한다.
 	for (long long i = 2; i * i <= maxi; i++) {
 		if (zegop[i] == true) continue;
-		for (long long j = i; j * j <= maxi; j += i) zegop[j] = true;
+		for (long long j = i*i; j * j <= maxi; j += i*i) zegop[j] = true;
 		for (long long j = ((mini - 1) / (i * i) + 1) * i * i; j <= maxi; j += i * i)
 			if (!zegop_nn[j - mini]) { zegop_nn[j - mini] = true; ans--; }
 	}
