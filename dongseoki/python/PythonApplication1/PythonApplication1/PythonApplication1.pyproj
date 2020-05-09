@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="removeblocktest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="프렌즈4블록.py">
+      <SubType>Code</SubType>
+    </Compile>
     <None Include="PythonApplication1.py">
       <Publish>False</Publish>
     </None>
