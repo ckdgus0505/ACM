@@ -172,6 +172,12 @@
     <Filter Include="소스 파일\sw마에">
       <UniqueIdentifier>{e054641f-2281-4404-a51b-1a1a8542954e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\z">
+      <UniqueIdentifier>{32330c87-799c-4008-888b-50557df3ec02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\카카오 코테\2020 인턴">
+      <UniqueIdentifier>{ac3a1dc7-efeb-44ca-ab5d-855ec9b90e51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="incorrectly_implemented_body_of_eratosthenes_15897.cpp">
@@ -621,14 +627,23 @@
     <ClCompile Include="index_out_of_range.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문제1귤박스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="채널링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="최고의 팀.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제1.cpp">
+      <Filter>소스 파일\카카오 코테\2020 인턴</Filter>
+    </ClCompile>
+    <ClCompile Include="문제2.cpp">
+      <Filter>소스 파일\카카오 코테\2020 인턴</Filter>
+    </ClCompile>
+    <ClCompile Include="문제3.cpp">
+      <Filter>소스 파일\카카오 코테\2020 인턴</Filter>
+    </ClCompile>
+    <ClCompile Include="문제4.cpp">
+      <Filter>소스 파일\카카오 코테\2020 인턴</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
