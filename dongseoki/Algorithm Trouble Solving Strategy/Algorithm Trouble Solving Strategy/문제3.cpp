@@ -17,19 +17,6 @@ vector<int> find_fixed_size_gems(int mean, vector<string> & gems, map<string, in
     if (tempGemsMap.size() == gemsMap.size())
         return { start, start + mean - 1 };
 
-    //bool flag = true;
-    //for (auto item : tempGemsMap) {
-    //    if (item.second <= 0) {
-    //        flag = false;
-    //        break;
-    //    }
-    //}
-
-    //if (flag == true) {
-    //    // 있다는 것. 있으면..
-    //    return { start, start + mean - 1 };
-    //}
-    // 처음 에만.
     while (true) {
 
 
@@ -57,12 +44,6 @@ vector<int> find_fixed_size_gems(int mean, vector<string> & gems, map<string, in
 vector <int> binarySearch(int min, int max, vector<string>& gems, map<string, int>& gemsMap) {
     int mean = (min + max) / 2;
     map<string, int> tempGemsMap;
-    //for (auto item : gemsMap) {
-    //    tempGemsMap[item.first] = 0;
-    //}
-    //// 일단 모든 종류를 넣어보자.
-
-
 
     vector<int> fixed_size_vec = find_fixed_size_gems(mean, gems,gemsMap);
 
