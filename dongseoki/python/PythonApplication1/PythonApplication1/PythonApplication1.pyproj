@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="2018 KAKAO BLIND\[3차]압축.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2020 써머코딩\거듭제곱수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2020 써머코딩\문제1 아름다움 연도.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2020 써머코딩\스킬트리.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="removeblocktest.py">
       <SubType>Code</SubType>
     </Compile>
@@ -39,6 +51,10 @@
     <Compile Include="남의거.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2018 KAKAO BLIND\" />
+    <Folder Include="2020 써머코딩\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
