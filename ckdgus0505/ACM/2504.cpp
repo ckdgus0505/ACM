@@ -43,6 +43,10 @@ int main(void) {
 				val.push(tmp);
 				st.push('V');
 			}
+			if (idx2 == 0) {
+				val.push(2);
+				st.push('V');
+			}
 			else flag = -1;
 		}
 		else if (str[idx] == ']') {
@@ -63,7 +67,12 @@ int main(void) {
 				st.push('V');
 			}
 		}
+		if (idx3 == 0) {
+			val.push(3);
+			st.push('V');
+		}
 		else flag = -1;
+
 	}
 
 	int ans = 0;
