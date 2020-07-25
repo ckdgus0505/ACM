@@ -33,6 +33,9 @@
     <Compile Include="2020 써머코딩\스킬트리.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="JASON 알고리즘 모임\K번째수.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="removeblocktest.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +58,7 @@
   <ItemGroup>
     <Folder Include="2018 KAKAO BLIND\" />
     <Folder Include="2020 써머코딩\" />
+    <Folder Include="JASON 알고리즘 모임\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

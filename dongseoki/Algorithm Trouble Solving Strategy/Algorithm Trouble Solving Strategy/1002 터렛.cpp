@@ -29,7 +29,7 @@ int main(void) {
 
 	int t = 0; //test case;
 
-	cin >> t;
+	cin >> t; 
 	for (int i = 0; i < t; i++) {
 
 		cin >> x1;
