@@ -663,6 +663,12 @@
     <ClCompile Include="B_try.cpp">
       <Filter>소스 파일\UCPC_2020_예선</Filter>
     </ClCompile>
+    <ClCompile Include="H_try.cpp">
+      <Filter>소스 파일\UCPC_2020_예선</Filter>
+    </ClCompile>
+    <ClCompile Include="G_정창현.cpp">
+      <Filter>소스 파일\UCPC_2020_예선</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Uart.h">

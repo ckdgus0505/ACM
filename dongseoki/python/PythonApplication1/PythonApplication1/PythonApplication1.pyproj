@@ -36,6 +36,9 @@
     <Compile Include="JASON 알고리즘 모임\K번째수.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="JASON 알고리즘 모임\전화번호목록.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="removeblocktest.py">
       <SubType>Code</SubType>
     </Compile>
